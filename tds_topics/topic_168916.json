@@ -1,0 +1,74 @@
+{
+  "id": 168916,
+  "title": "Project 1 tds score not showing i",
+  "fancy_title": "Project 1 tds score not showing i",
+  "slug": "project-1-tds-score-not-showing-i",
+  "posts_count": 23,
+  "reply_count": 18,
+  "highest_post_number": 24,
+  "image_url": null,
+  "created_at": "2025-03-02T04:22:49.157Z",
+  "last_posted_at": "2025-04-05T10:57:46.321Z",
+  "bumped": true,
+  "bumped_at": "2025-04-05T10:57:46.321Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "clarification",
+    "tds-project-1"
+  ],
+  "tags_descriptions": {},
+  "views": 338,
+  "like_count": 35,
+  "has_summary": false,
+  "last_poster_username": "21f3002277",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": false,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 23180,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 17483,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 7193,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster",
+      "user_id": 11755,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 163144,
+  "title": "Way of conduction of exam",
+  "fancy_title": "Way of conduction of exam",
+  "slug": "way-of-conduction-of-exam",
+  "posts_count": 2,
+  "reply_count": 0,
+  "highest_post_number": 2,
+  "image_url": null,
+  "created_at": "2025-01-13T15:35:53.154Z",
+  "last_posted_at": "2025-01-13T15:48:49.846Z",
+  "bumped": true,
+  "bumped_at": "2025-01-13T15:48:49.846Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "clarification"
+  ],
+  "tags_descriptions": {},
+  "views": 53,
+  "like_count": 1,
+  "has_summary": false,
+  "last_poster_username": "ADI_1792",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 33695,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster, Accepted Answer",
+      "user_id": 15828,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

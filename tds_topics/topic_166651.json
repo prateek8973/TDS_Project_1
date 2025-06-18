@@ -1,0 +1,45 @@
+{
+  "id": 166651,
+  "title": "Tds w4- q3",
+  "fancy_title": "Tds w4- q3",
+  "slug": "tds-w4-q3",
+  "posts_count": 1,
+  "reply_count": 0,
+  "highest_post_number": 1,
+  "image_url": null,
+  "created_at": "2025-02-09T15:23:27.958Z",
+  "last_posted_at": "2025-02-09T15:23:28.169Z",
+  "bumped": true,
+  "bumped_at": "2025-02-27T14:25:32.957Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "term1-2025"
+  ],
+  "tags_descriptions": {},
+  "views": 47,
+  "like_count": 0,
+  "has_summary": false,
+  "last_poster_username": "22f3003083",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": false,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": "latest single",
+      "description": "Original Poster, Most Recent Poster",
+      "user_id": 15956,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

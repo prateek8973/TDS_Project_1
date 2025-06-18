@@ -1,0 +1,52 @@
+{
+  "id": 165746,
+  "title": "Course drop",
+  "fancy_title": "Course drop",
+  "slug": "course-drop",
+  "posts_count": 2,
+  "reply_count": 0,
+  "highest_post_number": 2,
+  "image_url": null,
+  "created_at": "2025-01-29T14:50:10.285Z",
+  "last_posted_at": "2025-01-29T15:01:01.974Z",
+  "bumped": true,
+  "bumped_at": "2025-01-29T15:01:01.974Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "clarification"
+  ],
+  "tags_descriptions": {},
+  "views": 46,
+  "like_count": 0,
+  "has_summary": false,
+  "last_poster_username": "carlton",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": false,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 32250,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

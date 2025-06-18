@@ -1,0 +1,74 @@
+{
+  "id": 167344,
+  "title": "Project 1 - Casual banter",
+  "fancy_title": "Project 1 - Casual banter",
+  "slug": "project-1-casual-banter",
+  "posts_count": 13,
+  "reply_count": 1,
+  "highest_post_number": 14,
+  "image_url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/7/7/7742d688f4b033b15ac1a4af0c1f2eda19c31093.jpeg",
+  "created_at": "2025-02-15T16:55:08.372Z",
+  "last_posted_at": "2025-02-19T11:01:00.149Z",
+  "bumped": true,
+  "bumped_at": "2025-02-19T11:00:09.443Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "term1-2025",
+    "tds-project-1"
+  ],
+  "tags_descriptions": {},
+  "views": 220,
+  "like_count": 54,
+  "has_summary": false,
+  "last_poster_username": "Jivraj",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 22294,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster, Accepted Answer",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 16921,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 14179,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster",
+      "user_id": 15651,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

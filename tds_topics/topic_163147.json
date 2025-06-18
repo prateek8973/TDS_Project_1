@@ -1,0 +1,54 @@
+{
+  "id": 163147,
+  "title": "TDS iitm certified books",
+  "fancy_title": "TDS iitm certified books",
+  "slug": "tds-iitm-certified-books",
+  "posts_count": 2,
+  "reply_count": 0,
+  "highest_post_number": 2,
+  "image_url": null,
+  "created_at": "2025-01-13T15:40:50.091Z",
+  "last_posted_at": "2025-01-14T09:48:43.870Z",
+  "bumped": true,
+  "bumped_at": "2025-01-14T09:48:43.870Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "clarification",
+    "diploma-level",
+    "guidelines"
+  ],
+  "tags_descriptions": {},
+  "views": 108,
+  "like_count": 5,
+  "has_summary": false,
+  "last_poster_username": "s.anand",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 33695,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster, Accepted Answer",
+      "user_id": 9419,
+      "primary_group_id": 54,
+      "flair_group_id": 54
+    }
+  ]
+}

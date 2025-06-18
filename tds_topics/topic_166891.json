@@ -1,0 +1,54 @@
+{
+  "id": 166891,
+  "title": "Regarding Github Mail For Project",
+  "fancy_title": "Regarding Github Mail For Project",
+  "slug": "regarding-github-mail-for-project",
+  "posts_count": 2,
+  "reply_count": 0,
+  "highest_post_number": 2,
+  "image_url": null,
+  "created_at": "2025-02-13T02:19:53.023Z",
+  "last_posted_at": "2025-02-14T05:12:27.093Z",
+  "bumped": true,
+  "bumped_at": "2025-02-14T05:12:27.093Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "clarification",
+    "term1-2025",
+    "tds-project-1"
+  ],
+  "tags_descriptions": {},
+  "views": 58,
+  "like_count": 1,
+  "has_summary": false,
+  "last_poster_username": "carlton",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 25222,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster, Accepted Answer",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

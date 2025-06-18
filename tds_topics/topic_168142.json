@@ -1,0 +1,73 @@
+{
+  "id": 168142,
+  "title": "ROE instructions request",
+  "fancy_title": "ROE instructions request",
+  "slug": "roe-instructions-request",
+  "posts_count": 8,
+  "reply_count": 6,
+  "highest_post_number": 8,
+  "image_url": null,
+  "created_at": "2025-02-22T12:34:59.544Z",
+  "last_posted_at": "2025-02-24T08:59:27.794Z",
+  "bumped": true,
+  "bumped_at": "2025-02-24T08:59:27.794Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "diploma-level"
+  ],
+  "tags_descriptions": {},
+  "views": 158,
+  "like_count": 10,
+  "has_summary": false,
+  "last_poster_username": "carlton",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 17736,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster, Accepted Answer",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 17433,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 20017,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 7795,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

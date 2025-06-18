@@ -1,0 +1,97 @@
+{
+  "id": 166816,
+  "title": "Graded Assignments Dashboard Scores Incorrect/Missing",
+  "fancy_title": "Graded Assignments Dashboard Scores Incorrect/Missing",
+  "slug": "graded-assignments-dashboard-scores-incorrect-missing",
+  "posts_count": 72,
+  "reply_count": 43,
+  "highest_post_number": 76,
+  "image_url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/5/6/56b130af1cc28926192b9915e2ea49a471168b8e_2_1024x461.png",
+  "created_at": "2025-02-11T17:03:20.958Z",
+  "last_posted_at": "2025-02-21T03:42:15.854Z",
+  "bumped": true,
+  "bumped_at": "2025-02-21T03:42:42.536Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "operational",
+    "term1-2025",
+    "graded-assignment"
+  ],
+  "tags_descriptions": {},
+  "views": 186,
+  "like_count": 36,
+  "has_summary": true,
+  "last_poster_username": "carlton",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "indirectly_assigned_to": {
+    "595692": {
+      "assigned_to": {
+        "username": "carlton",
+        "name": "Carlton D'Silva",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png"
+      },
+      "post_number": 20,
+      "assignment_note": null,
+      "assignment_status": null
+    },
+    "596819": {
+      "assigned_to": {
+        "username": "carlton",
+        "name": "Carlton D'Silva",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png"
+      },
+      "post_number": 46,
+      "assignment_note": null,
+      "assignment_status": null
+    }
+  },
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 23180,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster, Accepted Answer",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 13976,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 15651,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 17135,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

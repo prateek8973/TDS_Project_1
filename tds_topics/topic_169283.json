@@ -1,0 +1,74 @@
+{
+  "id": 169283,
+  "title": "Graded assignment 6",
+  "fancy_title": "Graded assignment 6",
+  "slug": "graded-assignment-6",
+  "posts_count": 44,
+  "reply_count": 21,
+  "highest_post_number": 46,
+  "image_url": null,
+  "created_at": "2025-03-06T13:48:38.931Z",
+  "last_posted_at": "2025-04-11T16:31:37.494Z",
+  "bumped": true,
+  "bumped_at": "2025-04-11T16:31:37.494Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "term1-2025",
+    "week-6"
+  ],
+  "tags_descriptions": {},
+  "views": 430,
+  "like_count": 16,
+  "has_summary": false,
+  "last_poster_username": "swatikap",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": false,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 15651,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 7034,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 7193,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 29558,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster",
+      "user_id": 24244,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

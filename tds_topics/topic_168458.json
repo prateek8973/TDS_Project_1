@@ -1,0 +1,73 @@
+{
+  "id": 168458,
+  "title": "Tds roe exam date shift",
+  "fancy_title": "Tds roe exam date shift",
+  "slug": "tds-roe-exam-date-shift",
+  "posts_count": 8,
+  "reply_count": 4,
+  "highest_post_number": 8,
+  "image_url": null,
+  "created_at": "2025-02-25T15:14:46.948Z",
+  "last_posted_at": "2025-02-26T10:24:40.604Z",
+  "bumped": true,
+  "bumped_at": "2025-02-26T10:24:40.604Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "tds-roe"
+  ],
+  "tags_descriptions": {},
+  "views": 157,
+  "like_count": 12,
+  "has_summary": false,
+  "last_poster_username": "carlton",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 15326,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster, Accepted Answer",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 22224,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 933,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 19275,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

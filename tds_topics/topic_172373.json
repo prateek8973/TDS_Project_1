@@ -1,0 +1,52 @@
+{
+  "id": 172373,
+  "title": "PYQ doubt",
+  "fancy_title": "PYQ doubt",
+  "slug": "pyq-doubt",
+  "posts_count": 2,
+  "reply_count": 0,
+  "highest_post_number": 2,
+  "image_url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/1/1147fa7bca00db3d2085d116f674364128961293_2_1024x608.jpeg",
+  "created_at": "2025-04-10T14:21:56.165Z",
+  "last_posted_at": "2025-04-10T14:50:28.002Z",
+  "bumped": true,
+  "bumped_at": "2025-04-10T14:50:28.002Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "clarification"
+  ],
+  "tags_descriptions": {},
+  "views": 66,
+  "like_count": 1,
+  "has_summary": false,
+  "last_poster_username": "carlton",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 39249,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster, Accepted Answer",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

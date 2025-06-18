@@ -1,0 +1,50 @@
+{
+  "id": 163224,
+  "title": "Answers are not getting saved",
+  "fancy_title": "Answers are not getting saved",
+  "slug": "answers-are-not-getting-saved",
+  "posts_count": 2,
+  "reply_count": 0,
+  "highest_post_number": 2,
+  "image_url": null,
+  "created_at": "2025-01-14T09:28:37.719Z",
+  "last_posted_at": "2025-01-14T11:33:32.930Z",
+  "bumped": true,
+  "bumped_at": "2025-01-14T11:33:32.930Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [],
+  "tags_descriptions": {},
+  "views": 42,
+  "like_count": 0,
+  "has_summary": false,
+  "last_poster_username": "Jivraj",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": false,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 16397,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster",
+      "user_id": 15651,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

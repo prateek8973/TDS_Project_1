@@ -1,0 +1,76 @@
+{
+  "id": 169369,
+  "title": "Programming Quiz 1 in Student Dashboard (label for ROE scores) - showing absent or incorrect",
+  "fancy_title": "Programming Quiz 1 in Student Dashboard (label for ROE scores) - showing absent or incorrect",
+  "slug": "programming-quiz-1-in-student-dashboard-label-for-roe-scores-showing-absent-or-incorrect",
+  "posts_count": 28,
+  "reply_count": 2,
+  "highest_post_number": 29,
+  "image_url": null,
+  "created_at": "2025-03-07T16:51:48.746Z",
+  "last_posted_at": "2025-03-11T22:33:17.038Z",
+  "bumped": true,
+  "bumped_at": "2025-03-11T22:42:18.718Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "clarification",
+    "term1-2025",
+    "score-issues",
+    "tds-roe"
+  ],
+  "tags_descriptions": {},
+  "views": 172,
+  "like_count": 4,
+  "has_summary": false,
+  "last_poster_username": "Jivraj",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": false,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 16580,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 24685,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 45692,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster",
+      "user_id": 15651,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

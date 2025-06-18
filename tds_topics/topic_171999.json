@@ -1,0 +1,53 @@
+{
+  "id": 171999,
+  "title": "Project 1 solution repository link",
+  "fancy_title": "Project 1 solution repository link",
+  "slug": "project-1-solution-repository-link",
+  "posts_count": 2,
+  "reply_count": 0,
+  "highest_post_number": 2,
+  "image_url": null,
+  "created_at": "2025-04-07T03:41:25.974Z",
+  "last_posted_at": "2025-04-07T05:50:26.193Z",
+  "bumped": true,
+  "bumped_at": "2025-04-07T05:50:26.193Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "clarification",
+    "miscellaneous"
+  ],
+  "tags_descriptions": {},
+  "views": 81,
+  "like_count": 1,
+  "has_summary": false,
+  "last_poster_username": "carlton",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 5136,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster, Accepted Answer",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

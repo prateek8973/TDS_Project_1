@@ -1,0 +1,2126 @@
+[
+  {
+    "file": "actor-network-visualization.md",
+    "chunk": "## Actor Network Visualization\n\nFind the shortest path between Govinda & Angelina Jolie using IMDb data using Python: [networkx](https://pypi.org/project/networkx/) or [scikit-network](https://pypi.or..."
+  },
+  {
+    "file": "actor-network-visualization.md",
+    "chunk": "1](https://i.ytimg.com/vi_webp/lcwMsPxPIjc/sddefault.webp)](https://youtu.be/lcwMsPxPIjc)\n\n- [Notebook: How this video was created](https://github.com/sanand0/jolie-no-1/blob/master/jolie-no-1.ipynb)..."
+  },
+  {
+    "file": "base64-encoding.md",
+    "chunk": "# Base 64 Encoding\n\nBase64 is a method to convert binary data into ASCII text. It's essential when you need to transmit binary data through text-only channels or embed binary content in text formats...."
+  },
+  {
+    "file": "base64-encoding.md",
+    "chunk": "using 64 characters: A-Z, a-z, 0-9, + and / (padding with `=` to make the length a multiple of 4)\n- There's a URL-safe variant of Base64 that replaces + and / with - and \\_ to avoid issues in URLs\n- B..."
+  },
+  {
+    "file": "base64-encoding.md",
+    "chunk": "This reduces the number of HTTP requests and also works offline...."
+  },
+  {
+    "file": "base64-encoding.md",
+    "chunk": "But it increases the file size.\n\nFor example, here's an SVG image embedded as a data URI:\n\n```html\n<img\n  src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g..."
+  },
+  {
+    "file": "bash.md",
+    "chunk": "..."
+  },
+  {
+    "file": "bash.md",
+    "chunk": "## Terminal: Bash\n\nUNIX shells are the de facto standard in the data science world and [Bash](https://www.gnu.org/software/bash/) is the most popular.\nThis is available by default on Mac and Linux.\n\nO..."
+  },
+  {
+    "file": "bash.md",
+    "chunk": "**Command History**\n\n   ```bash\n   history         # Show command history\n   Ctrl+R         # Search history\n   !!             # Repeat last command\n   !$             # Last argument\n   ```\n\n2. **Dire..."
+  },
+  {
+    "file": "bash.md",
+    "chunk": "**Job Control**\n\n   ```bash\n   command &      # Run in background\n   Ctrl+Z         # Suspend process\n   bg             # Resume in background\n   fg             # Resume in foreground\n   ```\n\n4. **Use..."
+  },
+  {
+    "file": "bbc-weather-api-with-python.md",
+    "chunk": "..."
+  },
+  {
+    "file": "bbc-weather-api-with-python.md",
+    "chunk": "## BBC Weather location ID with Python\n\n[![BBC Weather location API with Python](https://i.ytimg.com/vi_webp/IafLrvnamAw/sddefault.webp)](https://youtu.be/IafLrvnamAw)\n\nYou'll learn how to get the loc..."
+  },
+  {
+    "file": "bbc-weather-api-with-python.md",
+    "chunk": "Watch [Python Requests Tutorial: Request Web Pages, Download Images, POST Data, Read JSON, and More](https://youtu.be/tb8gHvYlCFs)\n\n## BBC Weather data with Python\n\n[![Scrape BBC weather with Python](..."
+  },
+  {
+    "file": "bbc-weather-api-with-python.md",
+    "chunk": "Watch [Python Tutorial: Working with JSON Data using the json Module](https://youtu.be/9N6a-VLBa2I)\n- Learn about the [`BeautifulSoup` package](https://beautiful-soup-4.readthedocs.io/). Watch [Python..."
+  },
+  {
+    "file": "bbc-weather-api-with-python.md",
+    "chunk": "Watch\n  - [Python Pandas Tutorial (Part 1): Getting Started with Data Analysis - Installation and Loading Data](https://youtu.be/ZyhVh-qRZPA)\n  - [Python Pandas Tutorial (Part 2): DataFrame and Series..."
+  },
+  {
+    "file": "bbc-weather-api-with-python.md",
+    "chunk": "Watch [Python Tutorial: re Module - How to Write and Match Regular Expressions (Regex)](https://youtu.be/K8L6KVGG-7o)\n- Learn about the [`datetime` package](https://docs.python.org/3/library/datetime...."
+  },
+  {
+    "file": "cleaning-data-with-openrefine.md",
+    "chunk": "..."
+  },
+  {
+    "file": "cleaning-data-with-openrefine.md",
+    "chunk": "## Cleaning Data with OpenRefine\n\n[![Cleaning data with OpenRefine](https://i.ytimg.com/vi_webp/zxEtfHseE84/sddefault.webp)](https://youtu.be/zxEtfHseE84)\n\nThis session covers the use of OpenRefine fo..."
+  },
+  {
+    "file": "colab.md",
+    "chunk": "## Notebooks: Google Colab\n\n[Google Colab](https://colab.research.google.com/) is a free, cloud-based Jupyter notebook environment that's become indispensable for data scientists and ML practitioners...."
+  },
+  {
+    "file": "colab.md",
+    "chunk": "It's particularly valuable because it provides free access to GPUs and TPUs, and for easy sharing of code and execution results.\n\nWhile Colab is excellent for prototyping and learning, its free tier h..."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "## Converting HTML to Markdown\n\nWhen working with web content, converting HTML files to plain text or Markdown is a common requirement for content extraction, analysis, and preservation...."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "For example:\n\n- **Content analysis**: Extract clean text from HTML for natural language processing\n- **Data mining**: Strip formatting to focus on the actual content\n- **Offline reading**: Convert web..."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "It's a bit slow and not very customizable but produces clean Markdown that preserves structure, links, and basic formatting. Best for content where preserving the document structure is important.\n\n```..."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "\\;`: Executes the following command for each file found\n- `npx --package defuddle-cli -y`: Installs and runs defuddle-cli without prompting\n- `defuddle parse {} --md`: Parses the HTML file (represente..."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "Best for academic or documentation conversion where precision matters.\n\nPandoc can convert from many other formats (such as Word, PDF, LaTeX, etc.) to Markdown and vice versa, making it one of most po..."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "-name '*.html' -exec pandoc -f html -t markdown_strict -o {}.md {} \\;\n```\n\n- `find . -name '*.html'`: Finds all HTML files in the current directory and subdirectories\n- `-exec ......"
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "\\;`: Executes the following command for each file found\n- `pandoc`: The Swiss Army knife of document conversion\n- `-f html -t markdown_strict`: Convert from HTML format to strict markdown\n- `-o {}.md..."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "Lynx renders the HTML as it would appear in a text browser, preserving basic structure but losing complex formatting. Best for quick content extraction or when processing large numbers of files.\n\n```b..."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "-type f -name '*.html'`: Finds all HTML files in the current directory and subdirectories\n- `-exec sh -c '...' _ {} +`: Executes a shell command with batched files for efficiency\n- `for f; do ......"
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "done`: Loops through each file in the batch\n- `lynx -dump -nolist \"$f\"`: Uses the lynx text browser to render HTML as plain text\n  - `-dump`: Output the rendered page to stdout\n  - `-nolist`: Don't in..."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "It supports basic JavaScript processing, making it better at handling modern websites with dynamic content. Best for cases where you need slightly better rendering than lynx, particularly for complex..."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "-type f -name '*.html'`: Finds all HTML files in the current directory and subdirectories\n- `-exec sh -c '...' _ {} +`: Executes a shell command with batched files for efficiency\n- `for f; do ......"
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "done`: Loops through each file in the batch\n- `w3m -dump -T text/html -cols 80 -no-graph \"$f\"`: Uses the w3m text browser to render HTML\n  - `-dump`: Output the rendered page to stdout\n  - `-T text/ht..."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "**Process in parallel**: Use GNU Parallel for multi-core processing:\n\n   ```bash\n   find . -name \"*.html\" | parallel \"pandoc -f html -t markdown_strict -o {}.md {}\"\n   ```\n\n2. **Filter files before pr..."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "-name \"*.html\" -exec pandoc -f html -t markdown --wrap=preserve --atx-headers {} -o {}.md \\;\n   ```\n\n4. **Handle errors gracefully**:\n\n   ```bash\n   find ...."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "-name \"*.html\" -exec sh -c 'for f; do pandoc -f html -t markdown \"$f\" -o \"${f%.html}.md\" 2>/dev/null || echo \"Failed: $f\" >> conversion_errors.log; done' _ {} +\n   ```\n\n### Choosing the Right Tool\n\n-..."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "**For research/data collection**: Use a specialized crawler (like Crawl4AI) with post-processing conversion\n2. **For simple website archiving**: Markdown-crawler provides a convenient all-in-one solut..."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "**For maximum speed**: Combine wget with lynx in a pipeline\n\n### Crawl4AI\n\n[Crawl4AI](https://github.com/crawl4ai/crawl4ai) is designed for single-page extraction with high-quality content processing...."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "It excels at removing boilerplate content and preserving the main article text.\n\n```bash\nuv venv\nsource .venv/bin/activate.fish\nuv pip install crawl4ai\ncrawl4ai-setup\n```\n\n- `uv venv`: Creates a Pytho..."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "It's efficient for bulk processing but tends to produce lower-quality markdown conversion compared to specialized converters like pandoc or defuddle...."
+  },
+  {
+    "file": "convert-html-to-markdown.md",
+    "chunk": "Best for projects where quantity and integration are more important than perfect formatting.\n\n```bash\nuv venv\nsource .venv/bin/activate.fish\nuv pip install markdown-crawler\nmarkdown-crawler -t 5 -d 3..."
+  },
+  {
+    "file": "convert-pdfs-to-markdown.md",
+    "chunk": "## Converting PDFs to Markdown\n\nPDF documents are ubiquitous in academic, business, and technical contexts, but extracting and repurposing their content can be challenging...."
+  },
+  {
+    "file": "convert-pdfs-to-markdown.md",
+    "chunk": "This tutorial explores various command-line tools for converting PDFs to Markdown format, with a focus on preserving structure and formatting suitable for different use cases, including preparation fo..."
+  },
+  {
+    "file": "convert-pdfs-to-markdown.md",
+    "chunk": "It produces high-quality markdown with good preservation of document structure. It's specifically optimized for producing text that works well with LLMs, removing irrelevant formatting while preservin..."
+  },
+  {
+    "file": "convert-pdfs-to-markdown.md",
+    "chunk": "[PyMuPDF](https://pymupdf.readthedocs.io/) is emerging as a strong default for PDF text extraction due to its accuracy and performance in handling complex PDF structures.\n\n```bash\nPYTHONUTF8=1 uv run..."
+  },
+  {
+    "file": "convert-pdfs-to-markdown.md",
+    "chunk": "It's a versatile multi-format converter that handles PDFs via PDFMiner, DOCX via Mammoth, XLSX via Pandas, and PPTX via Python-PPTX. Good for batch processing of mixed document types...."
+  },
+  {
+    "file": "convert-pdfs-to-markdown.md",
+    "chunk": "The quality of PDF conversion is generally good but may struggle with complex layouts or heavily formatted documents.\n\n```bash\nPYTHONUTF8=1 uvx markitdown $FILE.pdf > markitdown.md\n```\n\n- `PYTHONUTF8=..."
+  },
+  {
+    "file": "convert-pdfs-to-markdown.md",
+    "chunk": "It is excellent for extracting text and tables from diverse document formats. Particularly useful for generating clean content to pass to LLMs. Strong community support and actively maintained.\n\n## GR..."
+  },
+  {
+    "file": "convert-pdfs-to-markdown.md",
+    "chunk": "It excels at extracting structured bibliographic information with high accuracy.\n\n```bash\n# Start GROBID service\ndocker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2\n\n# Process PDF with curl\ncurl -X..."
+  },
+  {
+    "file": "convert-pdfs-to-markdown.md",
+    "chunk": "It shows the most promise currently, though it requires post-processing.\n\n## Azure Document Intelligence API\n\nFor enterprise users already in the Microsoft ecosystem, [Azure Document Intelligence](htt..."
+  },
+  {
+    "file": "convert-pdfs-to-markdown.md",
+    "chunk": "May require custom model training or post-processing to match GROBID's reference extraction capabilities.\n\n### Other libraries\n\n[Docling](https://github.com/DS4SD/docling) is IBM's document understand..."
+  },
+  {
+    "file": "convert-pdfs-to-markdown.md",
+    "chunk": "Offers advanced document understanding capabilities beyond simple text extraction.\n\n[MegaParse](https://github.com/QuivrHQ/MegaParse) takes a comprehensive approach using LibreOffice, Pandoc, Tesserac..."
+  },
+  {
+    "file": "convert-pdfs-to-markdown.md",
+    "chunk": "Good for complex documents but has significant dependencies.\n\n## Comparison of PDF-to-Markdown Tools\n\n| Tool         | Strengths                                | Weaknesses                   | Best Fo..."
+  },
+  {
+    "file": "convert-pdfs-to-markdown.md",
+    "chunk": "**Pre-process PDFs** when possible:\n\n   ```bash\n   # Optimize a PDF for text extraction first\n   ocrmypdf --optimize 3 --skip-text input.pdf optimized.pdf\n   ```\n\n2. **Try multiple tools** on the same..."
+  },
+  {
+    "file": "convert-pdfs-to-markdown.md",
+    "chunk": "**Consider post-processing** for better results:\n\n   ```bash\n   # Simple post-processing example\n   sed -i 's/\\([A-Z]\\)\\./\\1\\.\\n/g' output.md  # Add line breaks after sentences\n   ```...."
+  },
+  {
+    "file": "correlation-with-excel.md",
+    "chunk": "..."
+  },
+  {
+    "file": "correlation-with-excel.md",
+    "chunk": "## Correlation with Excel\n\n[![Correlation with Excel](https://i.ytimg.com/vi_webp/lXHCyhO7DmY/sddefault.webp)](https://youtu.be/lXHCyhO7DmY)\n\nYou'll learn to calculate and interpret correlations using..."
+  },
+  {
+    "file": "cors.md",
+    "chunk": "## CORS: Cross-Origin Resource Sharing\n\nCORS (Cross-Origin Resource Sharing) is a security mechanism that controls how web browsers handle requests between different origins (domains, protocols, or po..."
+  },
+  {
+    "file": "cors.md",
+    "chunk": "Data scientists need CORS for APIs serving data or analysis to a browser on a different domain.\n\nWatch this practical explanation of CORS (3 min):\n\n[![CORS in 100 Seconds](https://i.ytimg.com/vi_webp/..."
+  },
+  {
+    "file": "crawling-cli.md",
+    "chunk": "..."
+  },
+  {
+    "file": "crawling-cli.md",
+    "chunk": "## Crawling with the CLI\n\nSince websites are a common source of data, we often download entire websites (crawling) and then process them offline.\n\nWeb crawling is essential in many data-driven scenari..."
+  },
+  {
+    "file": "crawling-cli.md",
+    "chunk": "It is pre-installed in many UNIX distributions and easy to install.\n\n[![Scraping Websites using Wget (8 min)](https://i.ytimg.com/vi/pLfH5TZBGXo/sddefault.jpg)](https://youtu.be/pLfH5TZBGXo)\n\nTo crawl..."
+  },
+  {
+    "file": "crawling-cli.md",
+    "chunk": "The syntax is (mostly) the same.\n\n```bash\nwget2 \\\n  --recursive \\\n  --level=3 \\\n  --no-parent \\\n  --convert-links \\\n  --adjust-extension \\\n  --compression=auto \\\n  --accept html,htm \\\n  --directory-pr..."
+  },
+  {
+    "file": "crawling-cli.md",
+    "chunk": "It's part of the Robots Exclusion Protocol, an ethical standard for web crawling.\n\n**Why it's important**:\n\n- **Server load protection**: Prevents excessive traffic that could overload servers\n- **Pri..."
+  },
+  {
+    "file": "css-selectors.md",
+    "chunk": "## CSS Selectors\n\nCSS selectors are patterns used to select and style HTML elements on a web page...."
+  },
+  {
+    "file": "css-selectors.md",
+    "chunk": "They are fundamental to web development and data scraping, allowing you to precisely target elements for styling or extraction.\n\nFor data scientists, understanding CSS selectors is crucial when:\n\n- We..."
+  },
+  {
+    "file": "data-aggregation-in-excel.md",
+    "chunk": "..."
+  },
+  {
+    "file": "data-aggregation-in-excel.md",
+    "chunk": "## Data Aggregation in Excel\n\n[![Data aggregation in Excel](https://i.ytimg.com/vi_webp/NkpT0dDU8Y4/sddefault.webp)](https://youtu.be/NkpT0dDU8Y4)\n\nYou'll learn data aggregation and visualization tech..."
+  },
+  {
+    "file": "data-analysis-with-chatgpt.md",
+    "chunk": "...."
+  },
+  {
+    "file": "data-analysis-with-datasette.md",
+    "chunk": "...."
+  },
+  {
+    "file": "data-analysis-with-duckdb.md",
+    "chunk": "..."
+  },
+  {
+    "file": "data-analysis-with-duckdb.md",
+    "chunk": "## Data Analysis with DuckDB\n\n[![Data Analysis with DuckDB](https://i.ytimg.com/vi_webp/4U0GqYrET5s/sddefault.webp)](https://youtu.be/4U0GqYrET5s)\n\nYou'll learn how to perform data analysis using Duck..."
+  },
+  {
+    "file": "data-analysis-with-duckdb.md",
+    "chunk": "This includes the [Kaggle Flights Dataset](https://www.kaggle.com/datasets/usdot/flight-delays) that the notebook downloads as [2015_flights.parquet](https://github.com/plotly/datasets/raw/master/2015..."
+  },
+  {
+    "file": "data-analysis-with-python.md",
+    "chunk": "..."
+  },
+  {
+    "file": "data-analysis-with-python.md",
+    "chunk": "## Data Analysis with Python\n\n[![Data Analysis with Python](https://i.ytimg.com/vi_webp/ZPfZH14FK90/sddefault.webp)](https://youtu.be/ZPfZH14FK90)\n\nYou'll learn practical data analysis techniques in P..."
+  },
+  {
+    "file": "data-analysis-with-sql.md",
+    "chunk": "..."
+  },
+  {
+    "file": "data-analysis-with-sql.md",
+    "chunk": "## Data Analysis with SQL\n\n[![Data Analysis with Databases](https://i.ytimg.com/vi_webp/Xn3QkYrThbI/sddefault.webp)](https://youtu.be/Xn3QkYrThbI)\n\nYou'll learn how to perform data analysis using SQL..."
+  },
+  {
+    "file": "data-analysis.md",
+    "chunk": "..."
+  },
+  {
+    "file": "data-analysis.md",
+    "chunk": "# Data analysis\n\n[<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" fill=\"currentColor\" class=\"bi bi-broadcast-pin\" viewBox=\"0 0 16 16\">\n<path d=\"M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707..."
+  },
+  {
+    "file": "data-cleansing-in-excel.md",
+    "chunk": "..."
+  },
+  {
+    "file": "data-cleansing-in-excel.md",
+    "chunk": "## Data Cleansing in Excel\n\n[![Clean up data in Excel](https://i.ytimg.com/vi_webp/7du7xkqeu4s/sddefault.webp)](https://youtu.be/7du7xkqeu4s)\n\nYou'll learn basic but essential data cleaning techniques..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "## Data Preparation in DuckDB\n\n[![DuckDB](https://i.ytimg.com/vi_webp/fZj6kTwXN1U/sddefault.webp)](https://www.youtube.com/playlist?list=PLw2SS5iImhEThtiGNPiNenOr2tVvLj6H7)\n\nDuckDB's SQL engine can ha..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Before working with messy production data, you need a controlled environment to test data cleaning techniques...."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "This sample represents common e-commerce scenarios: missing customer info (20% of orders), seasonal patterns (15-day cycles), and geographic segmentation that drive business decisions like inventory p..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Data rarely arrives clean. Export systems fail, manual data entry introduces errors, and third-party integrations send malformed files...."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Learning to handle corrupted CSV files prevents hours of debugging and ensures your data pipeline doesn't break when inevitably receiving bad data from vendors, APIs, or legacy systems.\n\n```bash\ncat <..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "When working with millions of customer records, transaction logs, or sensor data, traditional tools crash or run out of memory...."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "DuckDB's streaming capabilities let you process 100GB+ files on laptops by reading data in chunks, making big data analysis accessible without expensive infrastructure.\n\n```bash\nduckdb sample.duckdb <..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Every data analysis starts with understanding what you have - missing values can skew customer segmentation, outliers affect revenue forecasting, and data types determine which analytical techniques w..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Quick EDA prevents costly mistakes like launching marketing campaigns based on incomplete customer data or setting prices using corrupted transaction amounts.\n\n```sql\n-- Preview and get stats\nSELECT *..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Analytics teams need Parquet for fast querying, APIs require JSON for web integration, and executives want CSV for Excel compatibility...."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Format conversion ensures your cleaned data reaches every stakeholder in their preferred format, enabling faster decision-making across departments without forcing everyone to learn SQL.\n\n```sql\nCOPY..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Real-world CSV files from vendors, legacy systems, or manual exports often contain malformed rows that break standard parsers...."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Instead of spending hours manually fixing files or losing critical business data, DuckDB's error handling lets you salvage usable records while identifying problem areas for follow-up with data provid..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Missing customer names prevent personalized marketing, absent transaction amounts skew revenue calculations, and incomplete addresses block shipping...."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Rather than excluding entire records and losing valuable information, strategic imputation preserves data for analysis while clearly marking assumptions made during the cleaning process.\n\n```sql\n-- Re..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Product names from different suppliers use varying cases, customer entries have extra spaces, and imported data contains mixed formatting...."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Clean, consistent strings enable accurate grouping for inventory management, prevent duplicate customer records, and ensure search functionality works properly across your application.\n\n```sql\nSELECT..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Converting to standard formats enables monthly sales reporting, seasonal trend analysis, and time-based customer segmentation - critical for inventory planning, marketing campaigns, and financial fore..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Converting exact dollar amounts into price tiers enables targeted marketing (premium vs budget customers), inventory classification (high/medium/low value items), and commission structures...."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "This segmentation forms the foundation for personalized pricing, customer targeting, and performance analysis.\n\n```sql\nSELECT\n  order_id,\n  CASE WHEN amount > 700 THEN 'high' WHEN amount > 300 THEN 'm..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Product descriptions contain multiple spaces, phone numbers have inconsistent formatting, and addresses mix abbreviations with full words...."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Regular expressions fix these patterns systematically, ensuring consistent data quality for customer communications, shipping integrations, and search functionality.\n\n```sql\nSELECT REGEXP_REPLACE(prod..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Rather than maintaining separate processing pipelines, DuckDB's format flexibility lets you join orders from your CSV exports with customer data from JSON APIs and inventory levels from Parquet files..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "When analyzing years of transaction logs, customer behavior data, or sensor readings, loading everything at once crashes systems...."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Chunk processing enables analysis of terabyte-scale datasets on standard hardware, making enterprise-level data analysis accessible for fraud detection, customer lifetime value calculations, and opera..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Business analysis rarely needs all data - marketing teams want current customers, finance needs profitable regions, and product managers focus on active items...."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Efficient filtering reduces processing time, protects sensitive data (removing PII columns), and ensures analysis focuses on business-relevant subsets rather than getting lost in comprehensive but unf..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Raw transaction amounts become profit margins with tax calculations, customer regions enable territory-based analysis, and dates support seasonal comparisons...."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "These derived metrics power executive dashboards, sales team performance tracking, and automated business rules without requiring manual calculations or separate reporting tools.\n\n```sql\nSELECT *, amo..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "Converting thousands of individual orders into regional sales summaries, customer segment performance, and product category trends enables quick identification of growth opportunities, underperforming..."
+  },
+  {
+    "file": "data-preparation-in-duckdb.md",
+    "chunk": "These aggregations become the foundation for board presentations, budget planning, and strategic initiatives.\n\n```sql\n-- Aggregation\nSELECT region, COUNT(*) AS n_orders, SUM(amount) AS total FROM orde..."
+  },
+  {
+    "file": "data-preparation-in-the-editor.md",
+    "chunk": "..."
+  },
+  {
+    "file": "data-preparation-in-the-editor.md",
+    "chunk": "## Data Preparation in the Editor\n\n[![Data preparation in the editor](https://i.ytimg.com/vi_webp/99lYu43L9uM/sddefault.webp)](https://youtu.be/99lYu43L9uM)\n\nYou'll learn how to use a text editor [Vis..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "## Data Preparation in the Shell\n\n[![Data preparation in the shell](https://i.ytimg.com/vi_webp/XEdy4WK70vU/sddefault.webp)](https://youtu.be/XEdy4WK70vU)\n\nYou'll learn how to use UNIX tools to proces..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "They're easily parallelizable.\n- **Popular**: Most systems and languages support shell commands.\n\nIn [this notebook](https://colab.research.google.com/drive/1KSFkQDK0v__XWaAaHKeQuIAwYV0dkTe8), we'll e..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "One of these is usually available by default on most systems.\n\nWe'll use `curl` to download the file from the URL `https://drive.usercontent.google.com/uc?id=1J1ed4iHFAiS1Xq55aP858OEyEMQ-uMnE&export=d..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "You won't remember most, but it's fun to geek out.\n!curl --help all\n```\n\n    Usage: curl [options...] <url>\n         --abstract-unix-socket <path> Connect via abstract Unix domain socket\n         --al..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "sequences in URL path\n         --pinnedpubkey <hashes> FILE/HASHES Public key to verify peer against\n         --post301            Do not switch to GET after following a 301\n         --post302..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "It won't download if already downloaded\n#   --location downloads the file even if the link sends us somewhere else\n#   --output FILE saves the downloaded output as\n!curl --continue-at - \\\n  --location..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "It too has lots of options.\n\n```python\n!ls --help\n```\n\n    Usage: ls [OPTION]... [FILE]...\n    List information about the FILEs (the current directory by default).\n    Sort entries alphabetically if n..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "and ..\n          --author               with -l, print the author of each file\n      -b, --escape               print C-style escapes for nongraphic characters\n          --block-size=SIZE      with -l..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "0 means no limit\n      -x                         list entries by lines instead of by columns\n      -X                         sort alphabetically by entry extension\n      -Z, --context              p..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "Avoid '\\n' with -q or -b\n          --help     display this help and exit\n          --version  output version information and exit\n\n    The SIZE argument is an integer and optional unit (example: 10K i..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "If FORMAT is FORMAT1<newline>FORMAT2,\n    then FORMAT1 applies to non-recent files and FORMAT2 to recent files.\n    TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.\n    Al..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "The LS_COLORS environment\n    variable can change the settings...."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "Use the dircolors command to set it.\n\n    Exit status:\n     0  if OK,\n     1  if minor problems (e.g., cannot access subdirectory),\n     2  if serious trouble (e.g., cannot access command-line argumen..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "It's fast and pretty good. (`xz` is much better but slower.)\n\nSince the file has a `.gz` extension, we know it's compressed using `gzip`. We can use `gzip -d FILE.gz` to decompress the file. It'll rep..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "They both decompress a GZIP-ed file\n!gzip -d s-anand.net-Apr-2024.gz\n```\n\n```python\n# Let's list the files and see the size\n!ls -l\n```\n\n    total 50832\n    drwxr-xr-x 1 root root     4096 Jun  6 14:21..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "Clearly, it's more efficient to store and transport compressed files -- especitally if they're plain text.\n\n## Preview the logs\n\nTo see the first few lines or the last few lines of a text file, use `h..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "It has a lot of data. Some are clear. For example, taking the last row:\n\n- `37.59.21.100` is the IP address that made a request. That's from [OVH](https://www.whois.com/whois/37.59.21.100) - a French..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "Maybe a bot.\n- `[30/Apr/2024:07:11:31 -0500]` is the time of the request\n- `\"GET /blog/2003-mumbai-bloggers-meet-photos/feed/ HTTP/1.1\"` is the request made to [this page](https://s-anand.net/blog/200..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "That's Chrome 30 -- a really old versio of Chrome on Linux. Very likely a bot.\n\n## Count requests\n\n`wc` counts the number of lines, words, and characters in a file. The number of lines is most often u..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "Useful to know.\n\nI wonder: **Who is sending most of these requests?**\n\nLet's extract the IP addresses and count them.\n\n## Extract the `IP` column\n\nWe'll use `cut` to cut the first column. It has 2 opt..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "We want field 1 (IP address)\n\nLet's preview this:\n\n```python\n# Preview just the IP addresses from the logs\n!cut --delimiter \" \" --fields 1 s-anand.net-Apr-2024 | head -n 5\n```\n\n    17.241.219.11\n    1..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "This is called **piping** and is the equivalent of calling a function inside another in programming languages.\n\nWe'll use `sort` to sort these IP addresses. That puts the same IP addresses next to eac..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "maybe we need to go a bit further? Let's check the top 25 lines.\n\n```python\n# Preview the SORTED IP addresses from the logs\n!cut --delimiter \" \" --fields 1 s-anand.net-Apr-2024 | sort | head -n 25\n```..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "Good to know.\n\nWe'll use `uniq` to count the unique IP addresses. It has a `--count` option that displays the number of unique values.\n\n**NOTE**: `uniq` works ONLY on sorted files...."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "You NEED to `sort` first.\n\n```python\n!cut --delimiter \" \" --fields 1 s-anand.net-Apr-2024 | sort | uniq --count | head -n 25\n```\n\n          1 100.20.65.50\n          1 100.43.111.139\n          1 101.10..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "[101.2.187.83](https://www.whois.com/whois/101.2.187.83) from Colombo visited 7 times.\n\nBut I'd like to know who visited the MOST. So let's `sort` it further.\n\n`sort` has an option `--key 1n` that sor..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "The `n` indicates that it's a numeric sort (so 11 appears AFTER 2).\n\nAlso, we'll use `tail` instead of `head` to get the highest entries.\n\n```python\n# Show the top 5 IP addresses by visits\n!cut --deli..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "Is it something that identifies itself as a bot of some kind?\n\n## Find lines matching an IP\n\n`grep` searches for text in files. It uses [Regular Expressions](https://developer.mozilla.org/en-US/docs/W..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "The `^` at the beginning matches the start of a line.\n\n```python\n# Preview lines that begin with 136.243.228.193\n!grep \"^136.243.228.193 \" s-anand.net-Apr-2024 | head -n 5\n```\n\n    136.243.228.193 - -..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "It also seems to be crawling `robots.txt` to check if it's allowed to crawl the site, which is polite.\n\nLet's look at the second IP address: [37.59.21.100](https://www.whois.com/whois/37.59.21.100). T..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "Is that a bot, too?\n\n```python\n# Preview lines that begin with 37.59.21.100\n!grep \"^37.59.21.100 \" s-anand.net-Apr-2024 | head -n 5\n```\n\n    37.59.21.100 - - [31/Mar/2024:07:19:41 -0500] \"GET /blog/ma..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "What are the user agents that DO identify themselves as bots? Let's use `grep` to find all words that match bot.\n\n`grep --only-matching` will show only the matches, not the entire line.\n\nThe regular e..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "[DataForSEO](https://dataforseo.com/)\n2. [Apple](https://www.apple.com/)\n3. [Google](https://www.google.com/)\n4. [Anthropic](https://www.anthropic.com/)\n5. [Bing](https://www.bing.com/)\n6. [PetalBot](..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "Instead of `[31/Mar/2024:11:27:43 -0500]` it should have been `\"31/Mar/2024:11:27:43 -0500\"`\n\nWe'll use `sed` (stream editor) to replace the characters. `sed` is like `grep` but lets you replace, not..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "The way this works is:\n\n- `\\[`: Match the opening square bracket.\n- `\\([^]]*\\)`: Capture everything inside the square brackets (non-greedy match for any character except `]`).\n- `\\]`: Match the closin..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "We can use the regular expression above for the search and `\"\\1\"` for the value -- it inserts captured group enclosed in double quotes.\n\n```python\n# Replace [datetime] etc...."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "with \"datetime\" and save as log.csv\n!sed 's/\\[\\([^]]*\\)\\]/\"\\1\"/' s-anand.net-Apr-2024 > log.csv\n```\n\n```python\n# We should now have a log.csv that's roughly the same size as the original file.\n!ls -l..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "Some of the lines had extra columns.\n\nThat's because the \"User Agent\" values sometimes contain a quote. CSV files are supposed to escape quotes with `\"\"` -- two double quotes. But Apache uses `\\\"` ins..."
+  },
+  {
+    "file": "data-preparation-in-the-shell.md",
+    "chunk": "You can join multiple log files with this, for example\n- `awk` is almost a full-fledged programming interface. It's often used for summing up values\n- `less` lets you open and read files, scrolling th..."
+  },
+  {
+    "file": "data-preparation.md",
+    "chunk": "# Data Preparation\n\nData preparation is crucial because raw data is rarely perfect.\n\nIt often contains errors, inconsistencies, or missing values...."
+  },
+  {
+    "file": "data-preparation.md",
+    "chunk": "For example, marks data may have 'NA' or 'absent' for non-attendees, which you need to handle.\n\nThis section teaches you how to clean up data, convert it to different formats, aggregate it if required..."
+  },
+  {
+    "file": "data-sourcing.md",
+    "chunk": "# Data Sourcing\n\nBefore you do any kind of data science, you obviously have to get the data to be able to analyze it, visualize it, narrate it, and deploy it.\nAnd what we are going to cover in this mo..."
+  },
+  {
+    "file": "data-sourcing.md",
+    "chunk": "But that's the first way\u2014you download the data.\n2. The second way is you can **query it** from somewhere. It may be on a database. It may be available through an API. It may be available through a lib..."
+  },
+  {
+    "file": "data-sourcing.md",
+    "chunk": "It's available in a Word document. It's available on an Excel file. It's kind of structured, but you will have to figure out that structure and extract it from there.\n\nIn this module, we will be looki..."
+  },
+  {
+    "file": "data-sourcing.md",
+    "chunk": "And finally, how you can scrape from different sources.\n\n[![Data Sourcing - Introduction](https://i.ytimg.com/vi_webp/1LyblMkJzOo/sddefault.webp)](https://youtu.be/1LyblMkJzOo)\n\nHere are links used in..."
+  },
+  {
+    "file": "data-storytelling.md",
+    "chunk": "# Data Storytelling\n\n[![Narrate a story](https://i.ytimg.com/vi_webp/aF93i6zVVQg/sddefault.webp)](https://youtu.be/aF93i6zVVQg)...."
+  },
+  {
+    "file": "data-transformation-in-excel.md",
+    "chunk": "..."
+  },
+  {
+    "file": "data-transformation-in-excel.md",
+    "chunk": "## Data Transformation in Excel\n\n[![Data transformation in Excel](https://i.ytimg.com/vi_webp/gR2IY5Naja0/sddefault.webp)](https://youtu.be/gR2IY5Naja0)\n\nYou'll learn data transformation techniques in..."
+  },
+  {
+    "file": "data-visualization-with-chatgpt.md",
+    "chunk": "...."
+  },
+  {
+    "file": "data-visualization-with-seaborn.md",
+    "chunk": "## Data Visualization with Seaborn\n\n[Seaborn](https://seaborn.pydata.org/) is a data visualization library for Python. It's based on Matplotlib but a bit easier to use, and a bit prettier.\n\n[![Seaborn..."
+  },
+  {
+    "file": "data-visualization.md",
+    "chunk": "# Data visualization\n\n[![Data visualization](https://i.ytimg.com/vi_webp/XkxRDql00UU/sddefault.webp)](https://youtu.be/XkxRDql00UU)...."
+  },
+  {
+    "file": "dbt.md",
+    "chunk": "..."
+  },
+  {
+    "file": "dbt.md",
+    "chunk": "## Data Transformation with dbt\n\n[![Data Transformation with dbt](https://i.ytimg.com/vi_webp/5rNquRnNb4E/sddefault.webp)](https://youtu.be/5rNquRnNb4E)\n\nYou'll learn how to transform data using dbt (..."
+  },
+  {
+    "file": "deployment-tools.md",
+    "chunk": "# Deployment Tools\n\nAny application you build is likely to be deployed somewhere. This section covers the most popular tools involved in deploying an application....."
+  },
+  {
+    "file": "development-tools.md",
+    "chunk": "# Development Tools\n\n**NOTE**: The tools in this module are **PRE-REQUISITES** for the course. You would have used most of these before. If most of this is new to you, please take this course later...."
+  },
+  {
+    "file": "development-tools.md",
+    "chunk": "Mastering these tools will align you with current best practices and making you more adaptable in a fast-evolving industry.\n\nThe tools we cover here are not just popular, they're the core technology b..."
+  },
+  {
+    "file": "devtools.md",
+    "chunk": "## Browser: DevTools\n\n[Chrome DevTools](https://developer.chrome.com/docs/devtools/overview/) is the de facto standard for web development and data analysis in the browser.\nYou'll use this a lot when..."
+  },
+  {
+    "file": "devtools.md",
+    "chunk": "**Elements Panel**\n\n   - Inspect and modify HTML/CSS in real-time\n   - Copy CSS selectors for web scraping\n   - Debug layout issues with the Box Model\n\n   ```javascript\n   // Copy selector in Console..."
+  },
+  {
+    "file": "devtools.md",
+    "chunk": "**Console Panel**\n\n   - JavaScript REPL environment\n   - Log and debug data\n   - Common console methods:\n\n   ```javascript\n   console.table(data); // Display data in table format\n   console.group(\"Nam..."
+  },
+  {
+    "file": "devtools.md",
+    "chunk": "**Essential Keyboard Shortcuts**\n   - `Ctrl+Shift+I` (Windows) / `Cmd+Opt+I` (Mac): Open DevTools\n   - `Ctrl+Shift+C`: Select element to inspect\n   - `Ctrl+L`: Clear console\n   - `$0`: Reference curre..."
+  },
+  {
+    "file": "docker.md",
+    "chunk": "## Containers: Docker, Podman\n\n[Docker](https://www.docker.com/) and [Podman](https://podman.io/) are containerization tools that package your application and its dependencies into a standardized unit..."
+  },
+  {
+    "file": "docker.md",
+    "chunk": "In this course, we recommend Podman but Docker works in the same way.\n\nInitialize the container engine:\n\n```bash\npodman machine init\npodman machine start\n```\n\nCommon Operations...."
+  },
+  {
+    "file": "docker.md",
+    "chunk": "(You can use `docker` instead of `podman` in the same way.)\n\n```bash\n# Pull an image\npodman pull python:3.11-slim\n\n# Run a container\npodman run -it python:3.11-slim\n\n# List containers\npodman ps -a\n\n#..."
+  },
+  {
+    "file": "docker.md",
+    "chunk": "Here's a sample `Dockerfile` that converts a Python script into a container image.\n\n```dockerfile\nFROM python:3.11-slim\n# Set working directory\nWORKDIR /app\n# Typically, you would use `COPY ...."
+  },
+  {
+    "file": "docker.md",
+    "chunk": ".` to copy files from the host machine,\n# but here we're just using a simple script.\nRUN echo 'print(\"Hello, world!\")' > app.py\n# Run the script\nCMD [\"python\", \"app.py\"]\n```\n\nTo build, run, and deploy..."
+  },
+  {
+    "file": "docker.md",
+    "chunk": "Replace $DOCKER_HUB_USERNAME with your Docker Hub username.\npodman push py-hello:latest docker.io/$DOCKER_HUB_USERNAME/py-hello\n\n# Push adding a specific tag, e.g...."
+  },
+  {
+    "file": "docker.md",
+    "chunk": "dev\nTAG=dev podman push py-hello docker.io/$DOCKER_HUB_USERNAME/py-hello:$TAG\n```\n\nTools:\n\n- [Dive](https://github.com/wagoodman/dive): Explore image layers\n- [Skopeo](https://github.com/containers/sk..."
+  },
+  {
+    "file": "embeddings.md",
+    "chunk": "## Embeddings: OpenAI and Local Models\n\nEmbedding models convert text into a list of numbers. These are like a map of text in numerical form. Each number represents a feature, and similar texts will h..."
+  },
+  {
+    "file": "embeddings.md",
+    "chunk": "**Clustering**. Group similar items into clusters.\n4. **Anomaly Detection**. Find an unusual piece of text.\n\nYou can run embedding models locally or using an API. Local models are better for privacy a..."
+  },
+  {
+    "file": "embeddings.md",
+    "chunk": "APIs are better for scale and quality.\n\n| Feature     | Local Models               | API                       |\n| ----------- | -------------------------- | ------------------------- |\n| **Privacy**..."
+  },
+  {
+    "file": "embeddings.md",
+    "chunk": "These models are compared on several parameters, but here are some key ones to look at:\n\n1. **Rank**. Higher ranked models have higher quality.\n2. **Memory Usage**. Lower is better (for similar ranks)..."
+  },
+  {
+    "file": "embeddings.md",
+    "chunk": "Look for higher scores in the columns for Classification, Clustering, Summarization, etc...."
+  },
+  {
+    "file": "embeddings.md",
+    "chunk": "based on your needs.\n\n### Local Embeddings\n\n[![Guide to Local Embeddings with Sentence Transformers](https://i.ytimg.com/vi/OATCgQtNX2o/sddefault.jpg)](https://youtu.be/OATCgQtNX2o)\n\nHere's a minimal..."
+  },
+  {
+    "file": "embeddings.md",
+    "chunk": "It uses a [Cosine Similarity](https://en.wikipedia.org/wiki/Cosine_similarity) to calculate the similarity between two embeddings.\n\n### OpenAI Embeddings\n\nFor comparison, here's how to use OpenAI's AP..."
+  },
+  {
+    "file": "embeddings.md",
+    "chunk": "Replace the `embed` function in the earlier script:\n\n```python\nimport os\nimport httpx\n\nasync def embed(text: str) -> list[float]:\n    \"\"\"Get embedding vector for text using OpenAI's API.\"\"\"\n    async..."
+  },
+  {
+    "file": "extracting-audio-and-transcripts.md",
+    "chunk": "## Extracting Audio and Transcripts\n\n## Media Processing: FFmpeg\n\n[FFmpeg](https://ffmpeg.org/) is the standard command-line tool for processing video and audio files...."
+  },
+  {
+    "file": "extracting-audio-and-transcripts.md",
+    "chunk": "It's essential for data scientists working with media files for:\n\n- Extracting audio/video for machine learning\n- Converting formats for web deployment\n- Creating visualizations and presentations\n- Pr..."
+  },
+  {
+    "file": "extracting-audio-and-transcripts.md",
+    "chunk": "Use `-c copy` when possible to avoid re-encoding\n2. Monitor progress with `-progress pipe:1`\n3. Use `-hide_banner` to reduce output verbosity\n4. Test commands with small clips first\n5...."
+  },
+  {
+    "file": "extracting-audio-and-transcripts.md",
+    "chunk": "Use hardware acceleration when available (-hwaccel auto)\n\nError Handling:\n\n```bash\n# Validate file before processing\nffprobe input.mp4 2>&1 | grep \"Invalid\"\n\n# Continue on errors in batch processing\nf..."
+  },
+  {
+    "file": "extracting-audio-and-transcripts.md",
+    "chunk": "It's particularly useful for extracting audio and transcripts from videos.\n\nInstall using your package manager:\n\n```bash\n# macOS\nbrew install yt-dlp\n\n# Linux\ncurl -L https://github.com/yt-dlp/yt-dlp/r..."
+  },
+  {
+    "file": "extracting-audio-and-transcripts.md",
+    "chunk": "This saves the output in JSON as well as SRT format in the source directory.\n\n```bash\nfaster-whisper-xxl --print_progress --output_dir source --batch_recursive \\\n                   --check_files --sta..."
+  },
+  {
+    "file": "extracting-audio-and-transcripts.md",
+    "chunk": "You can choose from:\n  - `tiny`: Fastest but least accurate\n  - `base`: Good for simple audio\n  - `small`: Balanced speed/accuracy\n  - `medium`: Recommended default\n  - `large-v3`: Most accurate but s..."
+  },
+  {
+    "file": "extracting-audio-and-transcripts.md",
+    "chunk": "You can use this in YouTube, for example.\n  - `vtt`: A modern subtitle format.\n  - `txt`: Just the text transcript\n- `--output_dir`: The directory to save the output files. `source` indicates the sour..."
+  },
+  {
+    "file": "extracting-audio-and-transcripts.md",
+    "chunk": "You can speed it up by specifying it.\n\nRun `faster-whisper-xxl --help` for more options.\n\n## Gemini transcription\n\nThe [Gemini](https://gemini.google.com/) models from Google are notable in two ways:..."
+  },
+  {
+    "file": "extracting-audio-and-transcripts.md",
+    "chunk": "But they are intelligent. That enables a few powerful workflows. Here are some examples:\n\n1. **Transcribe into other languages**. Gemini will handle the transcription and translation in a single step...."
+  },
+  {
+    "file": "extracting-audio-and-transcripts.md",
+    "chunk": "Extract treatments, medications, details of next visit, etc. from a medical consultation.\n\nHere's how to use Gemini to transcribe audio files.\n\n1. Get a [Gemini API key](https://aistudio.google.com/ap..."
+  },
+  {
+    "file": "extracting-audio-and-transcripts.md",
+    "chunk": "Run this code:\n   ```bash\n   curl -X POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-002:streamGenerateContent?alt=sse \\\n     -H \"X-Goog-API-Key: $GEMINI_API_KEY\" \\..."
+  },
+  {
+    "file": "fastapi.md",
+    "chunk": "## Web Framework: FastAPI\n\n[FastAPI](https://fastapi.tiangolo.com/) is a modern Python web framework for building APIs with automatic interactive documentation...."
+  },
+  {
+    "file": "fastapi.md",
+    "chunk": "It's fast, easy to use, and designed for building production-ready REST APIs.\n\nHere's a minimal FastAPI app, `app.py`:\n\n```python\n# /// script\n# requires-python = \">=3.11\"\n# dependencies = [\n#   \"fast..."
+  },
+  {
+    "file": "fastapi.md",
+    "chunk": "**Handle errors by raising HTTPException**\n\n   ```python\n   from fastapi import HTTPException\n\n   async def get_item(item_id: int):\n       if not valid_item(item_id):\n           raise HTTPException(..."
+  },
+  {
+    "file": "fastapi.md",
+    "chunk": "**Use middleware for logging**\n\n   ```python\n   from fastapi import Request\n   import time\n\n   @app.middleware(\"http\")\n   async def add_timing(request: Request, call_next):\n       start = time.time()..."
+  },
+  {
+    "file": "forecasting-with-excel.md",
+    "chunk": "..."
+  },
+  {
+    "file": "forecasting-with-excel.md",
+    "chunk": "## Forecasting with Excel\n\n[![Forecasting with Excel](https://i.ytimg.com/vi_webp/QrTimmxwZw4/sddefault.webp)](https://youtu.be/QrTimmxwZw4)\n\nHere are links used in the video:\n\n- [FORECAST reference](..."
+  },
+  {
+    "file": "function-calling.md",
+    "chunk": "## Function Calling with OpenAI\n\n[Function Calling](https://platform.openai.com/docs/guides/function-calling) allows Large Language Models to convert natural language into structured function calls...."
+  },
+  {
+    "file": "function-calling.md",
+    "chunk": "This is perfect for building chatbots and AI assistants that need to interact with your backend systems.\n\nOpenAI supports [Function Calling](https://platform.openai.com/docs/guides/function-calling) -..."
+  },
+  {
+    "file": "function-calling.md",
+    "chunk": "**Use Strict Mode**\n   - Always set `strict: True` to ensure valid function calls\n   - Define all required parameters\n   - Set `additionalProperties: False`\n2. **Use tool choice**\n   - Set `tool_choic..."
+  },
+  {
+    "file": "function-calling.md",
+    "chunk": "**Clear Descriptions**\n   - Write detailed function and parameter descriptions\n   - Include expected formats and units\n   - Mention any constraints or limitations\n4. **Error Handling**\n   - Validate f..."
+  },
+  {
+    "file": "geospatial-analysis-with-excel.md",
+    "chunk": "..."
+  },
+  {
+    "file": "geospatial-analysis-with-excel.md",
+    "chunk": "## Geospatial Analysis with Excel\n\n[![Geospatial analysis with Excel](https://i.ytimg.com/vi_webp/49LjxNvxyVs/sddefault.webp)](https://youtu.be/49LjxNvxyVs)\n\nYou'll learn how to create a data-driven s..."
+  },
+  {
+    "file": "geospatial-analysis-with-python.md",
+    "chunk": "..."
+  },
+  {
+    "file": "geospatial-analysis-with-python.md",
+    "chunk": "## Geospatial Analysis with Python\n\n[![Geospatial analysis with Python](https://i.ytimg.com/vi_webp/m_qayAJt-yE/sddefault.webp)](https://youtu.be/m_qayAJt-yE)\n\nYou'll learn how to perform geospatial a..."
+  },
+  {
+    "file": "geospatial-analysis-with-qgis.md",
+    "chunk": "..."
+  },
+  {
+    "file": "geospatial-analysis-with-qgis.md",
+    "chunk": "## Geospatial Analysis with QGIS\n\n[![Geospatial analysis with QGIS](https://i.ytimg.com/vi_webp/tJhehs0o-ik/sddefault.webp)](https://youtu.be/tJhehs0o-ik)\n\nYou'll learn how to use QGIS for geographic..."
+  },
+  {
+    "file": "git.md",
+    "chunk": "## Version Control: Git, GitHub\n\n[Git](https://git-scm.com/) is the de facto standard for version control of software (and sometimes, data as well). It's a system that keeps track of changes you make..."
+  },
+  {
+    "file": "git.md",
+    "chunk": "It's a website that shows your code, allows you to collaborate with others, and provides many useful tools for developers.\n\nWatch these introductory videos to learn the basics of Git and GitHub (98 mi..."
+  },
+  {
+    "file": "git.md",
+    "chunk": "# Stage all changes\ngit commit -m \"message\"    # Commit changes\ngit push origin main       # Push to remote\n\n# Branching\ngit branch                 # List branches\ngit checkout -b feature    # Create/..."
+  },
+  {
+    "file": "git.md",
+    "chunk": "**Commit Messages**\n\n   ```bash\n   # Good commit message format\n   type(scope): summary\n\n   Detailed description of changes.\n\n   # Examples\n   feat(api): add user authentication\n   fix(db): handle nul..."
+  },
+  {
+    "file": "git.md",
+    "chunk": "**Code Review**\n   - Keep PRs small (<400 lines)\n   - Use draft PRs for WIP\n   - Review your own code first\n   - Respond to all comments\n\nEssential Tools\n\n- [GitHub Desktop](https://desktop.github.com..."
+  },
+  {
+    "file": "github-actions.md",
+    "chunk": "## CI/CD: GitHub Actions\n\n[GitHub Actions](https://github.com/features/actions) is a powerful automation platform built into GitHub...."
+  },
+  {
+    "file": "github-actions.md",
+    "chunk": "It helps automate your development workflow - running tests, deploying applications, updating datasets, retraining models, etc.\n\n- Understand the basics of [YAML configuration files](https://docs.gith..."
+  },
+  {
+    "file": "github-codespaces.md",
+    "chunk": "..."
+  },
+  {
+    "file": "github-codespaces.md",
+    "chunk": "## IDE: GitHub Codespaces\n\n[GitHub Codespaces](https://github.com/features/codespaces) is a cloud-hosted development environment built right into GitHub that gets you coding faster with pre-configured..."
+  },
+  {
+    "file": "github-codespaces.md",
+    "chunk": "[**From the GitHub UI**](https://github.com/codespaces)\n\n   - Go to your repo and click **Code \u2192 Codespaces \u2192 New codespace**.\n   - Pick the branch and machine specs (2\u201332 cores, 8\u201364 GB RAM), then cl..."
+  },
+  {
+    "file": "github-codespaces.md",
+    "chunk": "[**Via GitHub CLI**](https://docs.github.com/en/codespaces/developing-in-a-codespace/using-github-codespaces-with-github-cli)\n\n   ```bash\n   gh auth login\n   gh codespace create --repo OWNER/REPO\n   g..."
+  },
+  {
+    "file": "github-codespaces.md",
+    "chunk": "[Introduction to dev containers](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers)\n- **Prebuilds**: Buil..."
+  },
+  {
+    "file": "github-codespaces.md",
+    "chunk": "[Forward ports in Codespaces](https://docs.github.com/en/codespaces/developing-in-a-codespace/forwarding-ports-in-your-codespace)\n- **Secrets & Variables**: Keep your environment variables safe in the..."
+  },
+  {
+    "file": "github-codespaces.md",
+    "chunk": "[Manage Codespaces secrets](https://docs.github.com/en/enterprise-cloud@latest/codespaces/managing-codespaces-for-your-organization/managing-development-environment-secrets-for-your-repository-or-orga..."
+  },
+  {
+    "file": "github-codespaces.md",
+    "chunk": "[Personalizing your codespaces](https://docs.github.com/en/codespaces/setting-your-user-preferences/personalizing-github-codespaces-for-your-account)\n- **Machine Types & Cost Control**: Pick from VMs..."
+  },
+  {
+    "file": "github-codespaces.md",
+    "chunk": "[Managing Codespaces costs](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces)\n- **VS Code & CLI Integration**: Flip between browser VS Code..."
+  },
+  {
+    "file": "github-codespaces.md",
+    "chunk": "[Prebuilding your codespaces](https://docs.github.com/en/codespaces/prebuilding-your-codespaces)\n- **Copilot in Codespaces**: Let Copilot help you write code with in-editor AI suggestions. [Copilot in..."
+  },
+  {
+    "file": "github-copilot.md",
+    "chunk": "## AI Editor: GitHub Copilot\n\nAI Code Editors like [GitHub Copilot](https://github.com/features/copilot), [Cursor](https://www.cursor.com/), [Windsurf](http://windsurf.com/), [Roo Code](https://roocod..."
+  },
+  {
+    "file": "github-copilot.md",
+    "chunk": "These are now a standard tool in every developer's toolkit.\n\n[GitHub Copilot](https://github.com/features/copilot) is [free](https://github.com/features/copilot/plans) (as of May 2025) for 2,000 compl..."
+  },
+  {
+    "file": "github-copilot.md",
+    "chunk": "The free version includes Claude 3.5 Sonnet, a good coding model.\n- [Prompts](https://docs.github.com/en/copilot/copilot-chat-cookbook) to understand how people use AI code editors....."
+  },
+  {
+    "file": "github-pages.md",
+    "chunk": "## Static hosting: GitHub Pages\n\n[GitHub Pages](https://pages.github.com/) is a free hosting service that turns your GitHub repository directly into a static website whenever you push it...."
+  },
+  {
+    "file": "github-pages.md",
+    "chunk": "This is useful for sharing analysis results, data science portfolios, project documentation, and more.\n\nCommon Operations:\n\n```bash\n# Create a new GitHub repo\nmkdir my-site\ncd my-site\ngit init\n\n# Add..."
+  },
+  {
+    "file": "github-pages.md",
+    "chunk": "**Keep it small**\n   - [Optimize images](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia). Prefer SVG over WEBP over 8-bit PNG.\n   - [Preload](https://..."
+  },
+  {
+    "file": "github-pages.md",
+    "chunk": "Explore [Git LFS](https://git-lfs.github.com/) instead.\n\nTools:\n\n- [GitHub Desktop](https://desktop.github.com/): GUI for Git operations\n- [GitHub CLI](https://cli.github.com/): Command line interface..."
+  },
+  {
+    "file": "google-auth.md",
+    "chunk": "## Google Authentication with FastAPI\n\nSecure your API endpoints using Google ID tokens to restrict access to specific email addresses.\n\n[![\ud83d\udd25 Python FastAPI Google Login Tutorial | OAuth2 Authenticati..."
+  },
+  {
+    "file": "google-auth.md",
+    "chunk": "Users can log in with their existing Google accounts.\n- It's secure: Google supports OAuth2 and OpenID Connect to handle authentication.\n\nHere's how you build a FastAPI app that identifies the user...."
+  },
+  {
+    "file": "google-auth.md",
+    "chunk": "Copy the **Client ID** and **Client Secret** into a `.env` file:\n\n   ```env\n   GOOGLE_CLIENT_ID=your-client-id.apps.googleusercontent.com\n   GOOGLE_CLIENT_SECRET=your-client-secret\n   ```\n\n4...."
+  },
+  {
+    "file": "google-auth.md",
+    "chunk": "Create your FastAPI `app.py`:\n\n```python\n# /// script\n# dependencies = [\"python-dotenv\", \"fastapi\", \"uvicorn\", \"itsdangerous\", \"httpx\", \"authlib\"]\n# ///\n\nimport os\nfrom dotenv import load_dotenv\nfrom..."
+  },
+  {
+    "file": "google-auth.md",
+    "chunk": "For authenticated users: say hello\n    if user:\n        return f\"Hello {user['email']}\"\n    # 2. For users who have just logged in, save their details in the session\n    if \"code\" in request.query_par..."
+  },
+  {
+    "file": "google-auth.md",
+    "chunk": "For users who are logging in for the first time, redirect to Google login\n    return await oauth.google.authorize_redirect(request, request.url)\n\nif __name__ == \"__main__\":\n    import uvicorn\n    uvic..."
+  },
+  {
+    "file": "google-auth.md",
+    "chunk": "Now you'll see the email ID you logged in with.\n\nInstead of displaying the email, you can show different content based on the user. For example:\n\n- Allow access to specfic users and not others\n- Fetch..."
+  },
+  {
+    "file": "hybrid-rag-typesense.md",
+    "chunk": "## Hybrid Retrieval Augmented Generation (Hybrid RAG) with TypeSense\n\nHybrid RAG combines semantic (vector) search with traditional keyword search to improve retrieval accuracy and relevance. By mixin..."
+  },
+  {
+    "file": "hybrid-rag-typesense.md",
+    "chunk": "[TypeSense](https://typesense.org/) makes this easy with built-in hybrid search and automatic embedding generation.\n\nBelow is a fully self-contained Hybrid RAG tutorial using TypeSense, Python, and th..."
+  },
+  {
+    "file": "hybrid-rag-typesense.md",
+    "chunk": "We'll use that capability.\n\nSave the following as `addnotes.py` and run it with `uv run addnotes.py`.\n\n```python\n# /// script\n# requires-python = \">=3.13\"\n# dependencies = [\"httpx\"]\n# ///\nimport json..."
+  },
+  {
+    "file": "hybrid-rag-typesense.md",
+    "chunk": "Run a hybrid search and answer a question\n\nNow, we can use a single `curl` against the Multi-Search endpoint to combine keyword and vector search as a [hybrid search](https://typesense.org/docs/28.0/a..."
+  },
+  {
+    "file": "hybrid-rag-typesense.md",
+    "chunk": "Cite verbatim from the notes.\" \\\n  | uvx streamdown\n```\n\n- **`query_by: \"content,embedding\"`**: tells TypeSense to score by both keyword and vector similarity.\n- **`sort_by: \"_text_match:desc\"`**: boo..."
+  },
+  {
+    "file": "hybrid-rag-typesense.md",
+    "chunk": "See [jq manual](https://stedolan.github.io/jq/manual/)\n- **`llm -s`** and **`uvx streamdown`**: generate and stream a grounded answer.\n\n**Expected output:**\n\n- The raw matched snippets printed first...."
+  },
+  {
+    "file": "image-compression.md",
+    "chunk": "## Images: Compression\n\nImage compression is essential when deploying apps. Often, pages have dozens of images. Image analysis runs over thousands of images. The cost of storage and bandwidth can grow..."
+  },
+  {
+    "file": "image-compression.md",
+    "chunk": "This impacts image size a lot\n- **Lossless** compression (PNG, WebP) preserves exact data\n- **Lossy** compression (JPEG, WebP) removes some data for smaller files\n- **Vector** formats (SVG) scale with..."
+  },
+  {
+    "file": "image-compression.md",
+    "chunk": "if it's vector graphics or you can convert it to one)\n- Else, reduce the image to as small as you can, and save as (lossy or lossless) WebP\n\nCommon operations with Python:\n\n```python\nfrom pathlib impo..."
+  },
+  {
+    "file": "json.md",
+    "chunk": "## JSON\n\nJSON (JavaScript Object Notation) is the de facto standard format for data exchange on the web and APIs...."
+  },
+  {
+    "file": "json.md",
+    "chunk": "Its human-readable format and widespread support make it essential for data scientists working with web services, APIs, and configuration files.\n\nFor data scientists, JSON is essential when:\n\n- Workin..."
+  },
+  {
+    "file": "json.md",
+    "chunk": "Arrays and objects can contain other data types, including other arrays and objects\n- Always validate. Ensure JSON is well-formed...."
+  },
+  {
+    "file": "json.md",
+    "chunk": "Comm errors: Trailing commas, missing quotes, and escape characters\n\n[JSON Lines](https://jsonlines.org/) is a format that allows you to store multiple JSON objects in a single line.\nIt's useful for l..."
+  },
+  {
+    "file": "json.md",
+    "chunk": "JSON data is typically stored as an array of objects.\nimport pandas as pd\ndf = pd.read_json('data.json')\n\n# Read JSON lines from file into a DataFrame...."
+  },
+  {
+    "file": "json.md",
+    "chunk": "JSON lines are typically one line per object.\ndf = pd.read_json('data.jsonl', lines=True)\n```\n\nPractice JSON skills with these resources:\n\n- [JSON Generator](https://json-generator.com/): Create sampl..."
+  },
+  {
+    "file": "large-language-models.md",
+    "chunk": "# Large Language Models\n\nThis module covers the practical usage of large language models (LLMs).\n\n**LLMs incur a cost.** For the May 2025 batch, use [aipipe.org](https://aipipe.org/) as a proxy.\nEmail..."
+  },
+  {
+    "file": "large-language-models.md",
+    "chunk": "`https://api.openai.com/v1` with `https://aipipe.org/openrouter/v1...` or `https://aipipe.org/openai/v1...`\n2. Replace `OPENAI_API_KEY` with the [`AIPIPE_TOKEN`](https://aipipe.org/login)\n3. Replace m..."
+  },
+  {
+    "file": "large-language-models.md",
+    "chunk": "`gpt-4.1-nano`, with `openai/gpt-4.1-nano`\n\nFor example, let's use [Gemini 2.0 Flash Lite](https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-0-flash-lite) via [OpenRouter](https://..."
+  },
+  {
+    "file": "large-language-models.md",
+    "chunk": "Your usage is limited to **$1 per calendar month** for this course. Don't exceed that.\n\n**Use [AI Proxy](https://github.com/sanand0/aiproxy)** instead of OpenAI. Specifically:\n\n1. Replace your API to..."
+  },
+  {
+    "file": "llm-agents.md",
+    "chunk": "## LLM Agents: Building AI Systems That Can Think and Act\n\nLLM Agents are AI systems that can define and execute their own workflows to accomplish tasks. Unlike simple prompt-response patterns, agents..."
+  },
+  {
+    "file": "llm-agents.md",
+    "chunk": "They represent a significant step toward more autonomous AI systems.\n\n[![Building LLM Agents with LangChain (13 min)](https://i.ytimg.com/vi_webp/DWUdGhRrv2c/sddefault.webp)](https://youtu.be/DWUdGhRr..."
+  },
+  {
+    "file": "llm-agents.md",
+    "chunk": "**Memory**: Retains context across multiple steps\n\nAgents operate through a loop:\n\n- Observe the environment\n- Think about what to do\n- Take action using tools\n- Observe results\n- Repeat until task co..."
+  },
+  {
+    "file": "llm-agents.md",
+    "chunk": "Passes the results back to the LLM\n5. Provides a final answer or tries again if the execution fails\n\nHere's how it works:\n\n```bash\nuv run llm-cmd-agent.py \"list all Python files under the current dire..."
+  },
+  {
+    "file": "llm-agents.md",
+    "chunk": "Pass the output back to the LLM for interpretation\n5. Present a final answer to the user\n\nUnder the hood, the agent follows this workflow:\n\n1. Initial prompt to generate a shell script\n2. Code extract..."
+  },
+  {
+    "file": "llm-agents.md",
+    "chunk": "Error handling and retry logic if needed\n\nThis demonstrates the core agent loop of:\n\n- Planning (generating code)\n- Execution (running the code)\n- Reflection (interpreting results)\n- Adaptation (fixin..."
+  },
+  {
+    "file": "llm-agents.md",
+    "chunk": "**MRKL** (Modular Reasoning, Knowledge and Language): Combines neural and symbolic modules\n4. **Plan-and-Execute**: Creates a plan first, then executes steps\n\n### Real-World Applications\n\nLLM agents c..."
+  },
+  {
+    "file": "llm-agents.md",
+    "chunk": "**Customer service agents** that handle queries and perform actions\n5. **Personal assistants** that manage schedules, emails, and tasks\n\n### Project Ideas\n\nHere are some practical agent projects you c..."
+  },
+  {
+    "file": "llm-agents.md",
+    "chunk": "**Personal finance agent**: Categorizes expenses, suggests budgets, and identifies savings opportunities\n4. **Health and fitness coach**: Creates workout plans, tracks nutrition, and provides motivati..."
+  },
+  {
+    "file": "llm-agents.md",
+    "chunk": "**Robust error handling**: Agents should recover gracefully from failures\n4. **Memory management**: Balance context retention with token efficiency\n5. **User feedback**: Allow users to correct or guid..."
+  },
+  {
+    "file": "llm-agents.md",
+    "chunk": "**Tool integration complexity**: Each new tool adds implementation overhead\n4. **Context window constraints**: Limited memory for long-running tasks\n5. **Security concerns**: Tool access requires care..."
+  },
+  {
+    "file": "llm-evals.md",
+    "chunk": "..."
+  },
+  {
+    "file": "llm-evals.md",
+    "chunk": "## LLM Evaluations with PromptFoo\n\nTest-drive your prompts and models with automated, reliable evaluations.\n\n[![\ud83d\ude80 Test Driven Prompt Engineering with PromptFoo (12 min)](https://i.ytimg.com/vi_webp/Kh..."
+  },
+  {
+    "file": "llm-evals.md",
+    "chunk": "Install Node.js & npm ([nodejs.org](https://nodejs.org/))\n2. Set up your [`OPENAI_API_KEY`](https://platform.openai.com/api-keys) environment variable\n3. Configure `promptfooconfig.yaml`...."
+  },
+  {
+    "file": "llm-evals.md",
+    "chunk": "Below is an example:\n\n```yaml\nprompts:\n  - |\n    Summarize this text: \"{{text}}\"\n  - |\n    Please write a concise summary of: \"{{text}}\"\n\nproviders:\n  - openai:gpt-3.5-turbo\n  - openai:gpt-4\n\ntests:..."
+  },
+  {
+    "file": "llm-evals.md",
+    "chunk": "You can disable it with `--no-cache` or clear it.\n\n```bash\n# Disable cache for this run\necho y | promptfoo eval --no-cache -c promptfooconfig.yaml\n\n# Clear all cache\necho y | promptfoo cache clear\n```..."
+  },
+  {
+    "file": "llm-image-generation.md",
+    "chunk": "## Gemini Flash Experimental Image Generation and Editing APIs\n\nIn March 2025, Google introduced native image generation and editing capabilities in the Gemini 2.0 Flash Experimental model...."
+  },
+  {
+    "file": "llm-image-generation.md",
+    "chunk": "You can now generate and iteratively edit images via a single REST endpoint ([Experiment with Gemini 2.0 Flash native image generation](https://developers.googleblog.com/en/experiment-with-gemini-20-f..."
+  },
+  {
+    "file": "llm-image-generation.md",
+    "chunk": "([Gemini API | Google AI for Developers](https://ai.google.dev/gemini-api/docs))\n\n### Generation options\n\nYou can tweak the output with these `generationConfig` parameters:\n\n- `responseModalities`: Mo..."
+  },
+  {
+    "file": "llm-image-generation.md",
+    "chunk": "Rough per-image costs:\n\n- Low quality: ~$0.02\n- Medium quality: ~$0.07\n- High quality: ~$0.19 ([OpenAI's GPT-Image-1 API \u2014 Create Stunning Images for Your Apps!](https://medium.com/h7w/openais-gpt-ima..."
+  },
+  {
+    "file": "llm-image-generation.md",
+    "chunk": "- Hacker News](https://news.ycombinator.com/item?id=43787769))\n\nTo optimize:\n\n- Choose smaller sizes (`256x256`).\n- Generate fewer images (`n:1`).\n- Use `response_format:\"url\"` to reduce payload.\n- Ca..."
+  },
+  {
+    "file": "llm-sentiment-analysis.md",
+    "chunk": "..."
+  },
+  {
+    "file": "llm-sentiment-analysis.md",
+    "chunk": "## LLM Sentiment Analysis\n\n[OpenAI's API](https://platform.openai.com/) provides access to language models like GPT 4o, GPT 4o mini, etc.\n\nFor more details, read OpenAI's guide for:\n\n- [Text Generatio..."
+  },
+  {
+    "file": "llm-speech.md",
+    "chunk": "## OpenAI TTS-1 for Text-to-Speech Generation\n\nOpenAI's Text-to-Speech API (TTS-1) converts text into natural-sounding speech using state-of-the-art neural models...."
+  },
+  {
+    "file": "llm-speech.md",
+    "chunk": "Released in March 2025, it offers multiple voices and control over speaking style and speed.\n\n[![Audio Models in the API (15 min)](https://i.ytimg.com/vi_webp/lXb0L16ISAc/sddefault.webp)](https://yout..."
+  },
+  {
+    "file": "llm-speech.md",
+    "chunk": "You can:\n\n1. Go to the Google Cloud Console: [https://console.cloud.google.com/apis/library/texttospeech.googleapis.com](https://console.cloud.google.com/apis/library/texttospeech.googleapis.com), sel..."
+  },
+  {
+    "file": "llm-speech.md",
+    "chunk": "Copy the generated key (it\u2019ll look like `AIza\u2026`).\n\n### Simple speech generation\n\nGenerate speech using the Gemini API:\n\n```bash\ncurl -X POST \"https://texttospeech.googleapis.com/v1/text:synthesize?key..."
+  },
+  {
+    "file": "llm-text-extraction.md",
+    "chunk": "..."
+  },
+  {
+    "file": "llm-text-extraction.md",
+    "chunk": "## LLM Text Extraction\n\n[JSON](json.md) is one of the most widely used formats in the world for applications to exchange data.\n\n[![LLM Extraction](https://i.ytimg.com/vi_webp/72514uGffPE/sddefault.web..."
+  },
+  {
+    "file": "llm-text-extraction.md",
+    "chunk": "Guide the user through the solution step by step.\" },\n    { \"role\": \"user\", \"content\": \"how can I solve 8x + 7 = -23\" }\n  ],\n  \"response_format\": {\n    \"type\": \"json_schema\",\n    \"json_schema\": {..."
+  },
+  {
+    "file": "llm-text-extraction.md",
+    "chunk": "The items marked \u26a0\ufe0f are OpenAI specific requirements for the JSON schema.\n\n- `\"type\": \"json_schema\"`: We want you to generate a JSON response that follows this schema.\n- `\"json_schema\":`: We're going..."
+  },
+  {
+    "file": "llm-text-extraction.md",
+    "chunk": "\u26a0\ufe0f The root object **must** be an object.\n    - `\"properties\":`: The object has these properties:\n      - `\"steps\":`: There's a `steps` property.\n        - `\"type\": \"array\"`: It's an array.\n        -..."
+  },
+  {
+    "file": "llm-text-extraction.md",
+    "chunk": "which is a string.\n            - `\"output\":`: There's an `output` property.\n              - `\"type\": \"string\"`: ... which is a string, too.\n          - `\"required\": [\"explanation\", \"output\"]`: \u26a0\ufe0f You..."
+  },
+  {
+    "file": "llm-text-extraction.md",
+    "chunk": "which is a string.\n    - `\"required\": [\"steps\", \"final_answer\"]`: \u26a0\ufe0f You **must** add `\"required\": [...]` and include **all** fields in the object.\n    - `\"additionalProperties\": false`: \u26a0\ufe0f OpenAI req..."
+  },
+  {
+    "file": "llm-video-screen-scraping.md",
+    "chunk": "## LLM Video Screen-Scraping\n\nVideo screen-scraping with LLMs is a powerful technique for extracting structured data from screen recordings...."
+  },
+  {
+    "file": "llm-video-screen-scraping.md",
+    "chunk": "This approach works with any visible screen content and bypasses traditional web scraping limitations like authentication or anti-scraping measures.\n\n[![Screen Scraping with Gemini](https://i.ytimg.co..."
+  },
+  {
+    "file": "llm-video-screen-scraping.md",
+    "chunk": "**Record the Screen**\n   - Use QuickTime (Mac) or Windows Game Bar (Windows), Screen2Gif, or any tool of your choice\n   - Select specific screen area containing target data\n   - Record scrolling/click..."
+  },
+  {
+    "file": "llm-video-screen-scraping.md",
+    "chunk": "**Process with Gemini**\n   - Upload to [Google AI Studio](https://makersuite.google.com/app/prompts)\n   - Select Gemini 1.5 Flash (cost-effective)\n   - Prompt for structured output (JSON/CSV)\n\nExample..."
+  },
+  {
+    "file": "llm-video-screen-scraping.md",
+    "chunk": "**Recording Quality**\n   - Frame only relevant content\n   - Pause briefly on important data\n   - Maintain consistent scroll speed\n   - Use high contrast display settings\n2. **Data Validation**\n   - Al..."
+  },
+  {
+    "file": "llm-video-screen-scraping.md",
+    "chunk": "**Error Handling**\n   - Request data in simple formats (CSV/JSON)\n   - Include validation in prompts\n   - Split long videos into segments\n   - Handle missing/partial data gracefully\n\n### Use Cases\n\n1...."
+  },
+  {
+    "file": "llm-video-screen-scraping.md",
+    "chunk": "**Business Intelligence**\n   - Competitor pricing analysis\n   - Market research data\n   - Internal system migration\n   - Legacy report conversion\n\nTools:\n\n- [Google AI Studio](https://aistudio.google...."
+  },
+  {
+    "file": "llm-website-scraping.md",
+    "chunk": "## LLM Website Scraping...."
+  },
+  {
+    "file": "llm.md",
+    "chunk": "## LLM CLI: llm\n\n[`llm`](https://pypi.org/project/llm) is a command-line utility for interacting with large language models\u2014simplifying prompts, managing models and plugins, logging every conversation..."
+  },
+  {
+    "file": "llm.md",
+    "chunk": "Then set up your [`OPENAI_API_KEY`](https://platform.openai.com/api-keys) environment variable...."
+  },
+  {
+    "file": "llm.md",
+    "chunk": "See [Getting started](https://github.com/simonw/llm?tab=readme-ov-file#getting-started).\n\n**TDS Students**: See [Large Language Models](large-language-models.md) for instructions on how to get and use..."
+  },
+  {
+    "file": "llm.md",
+    "chunk": "([Language models on the command-line - Simon Willison's Weblog](https://simonwillison.net/2024/Jun/17/cli-language-models/?utm_source=chatgpt.com))\n\n### Practical Uses\n\n- **Automated coding**. Genera..."
+  },
+  {
+    "file": "llm.md",
+    "chunk": "Inspired by [Simon\u2019s post on using LLMs for rapid tool building](https://simonwillison.net/2025/Mar/11/using-llms-for-code/).\n- **Transcript processing**. Summarize YouTube or podcast transcripts usin..."
+  },
+  {
+    "file": "llm.md",
+    "chunk": "`git diff | llm 'Write a concise git commit message explaining these changes'`. \\\n- **Data extraction**. Convert free-text into structured JSON for automation. [Structured data extraction from unstruc..."
+  },
+  {
+    "file": "marimo.md",
+    "chunk": "## Interactive Notebooks: Marimo\n\n[Marimo](https://marimo.app/) is a new take on notebooks that solves some headaches of Jupyter. It runs cells reactively - when you change one cell, all dependent cel..."
+  },
+  {
+    "file": "marimo.md",
+    "chunk": "[Browse the gallery of examples](https://marimo.io/gallery). With a wide variety of interactive widgets, It's growing popular as an alternative to Streamlit for building data science web apps.\n\nCommon..."
+  },
+  {
+    "file": "marimo.md",
+    "chunk": "**Cell Dependencies**\n   - Keep cells focused and atomic\n   - Use clear variable names\n   - Document data flow between cells\n2. **Interactive Elements**\n\n   ```python\n   # Add interactive widgets\n   s..."
+  },
+  {
+    "file": "marimo.md",
+    "chunk": "**Version Control**\n   - Keep notebooks are Python files\n   - Use Git to track changes\n   - Publish on [marimo.app](https://marimo.app/) for collaboration\n\n[![\"marimo: an open-source reactive notebook..."
+  },
+  {
+    "file": "markdown.md",
+    "chunk": "## Documentation: Markdown\n\nMarkdown is a lightweight markup language for creating formatted text using a plain-text editor...."
+  },
+  {
+    "file": "markdown.md",
+    "chunk": "It's the standard for documentation in software projects and data science notebooks.\n\nWatch this introduction to Markdown (19 min):\n\n[![Markdown Crash Course (19 min)](https://i.ytimg.com/vi_webp/HUBN..."
+  },
+  {
+    "file": "markdown.md",
+    "chunk": "Second item\n\n[Link text](https://url.com)\n![Image alt](image.jpg)\n\n```python\n# Code block\ndef hello():\n    print(\"Hello\")\n```\n\n> Blockquote\n````\n\nThere is also a [GitHub Flavored Markdown](https://git..."
+  },
+  {
+    "file": "markdown.md",
+    "chunk": "This includes extensions like:\n\n```\n- [ ] Incomplete task\n- [x] Completed task\n\n~~Strikethrough~~\n\nTables:\n\n| Column 1 | Column 2 |\n|----------|----------|\n| Cell 1   | Cell 2   |\n\n```\n\nTools for work..."
+  },
+  {
+    "file": "marp.md",
+    "chunk": "...."
+  },
+  {
+    "file": "multimodal-embeddings.md",
+    "chunk": "## Multimodal Embeddings\n\nMultimodal embeddings map **text** and **images** into the **same** vector space, enabling direct comparison between, say, a caption\u2009\u2014 \u201cA cute cat\u201d\u2009\u2014 and an image of that cat..."
+  },
+  {
+    "file": "multimodal-embeddings.md",
+    "chunk": "\u201cfind images of a sunset\u201d via text queries)\n- **Content recommendation** (suggesting visually similar products to text descriptions)\n- **Clustering & retrieval** (grouping documents and their associat..."
+  },
+  {
+    "file": "multimodal-embeddings.md",
+    "chunk": "**Sign up** at the Nomic Atlas homepage:\n   \ud83d\udc49 [https://atlas.nomic.ai/](https://atlas.nomic.ai/) ([Atlas | Nomic Atlas Documentation][1])\n2. Once logged in, open the **Dashboard** and navigate to **Se..."
+  },
+  {
+    "file": "multimodal-embeddings.md",
+    "chunk": "Click **Get Started** (no credit card needed) and register for a free account. Every new key comes with **1 million free tokens**.\n3. In the dashboard, go to **API Key & Billing** and copy your key...."
+  },
+  {
+    "file": "multimodal-embeddings.md",
+    "chunk": "In the Cloud Console, open **APIs & Services \u2192 Credentials**:\n   \ud83d\udc49 [https://console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials) ([Google Cloud][4])\n3...."
+  },
+  {
+    "file": "multimodal-embeddings.md",
+    "chunk": "Click **Create credentials \u2192 API key**, then copy the key.\n\nSet in your shell:\n\n```bash\nexport GOOGLE_API_KEY=\"your-google-api-key\"\nexport PROJECT_ID=\"your-gcp-project-id\"\n```\n\n## Example Requests\n\nBe..."
+  },
+  {
+    "file": "multimodal-embeddings.md",
+    "chunk": "Nomic Atlas\n\nText Embeddings\n\n```bash\ncurl -X POST \"https://api-atlas.nomic.ai/v1/embedding/text\" \\\n  -H \"Authorization: Bearer $NOMIC_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{..."
+  },
+  {
+    "file": "multimodal-embeddings.md",
+    "chunk": "Jina AI\n\nJina\u2019s unified `/v1/embeddings` endpoint accepts text strings **and** base64-encoded image bytes in one batch...."
+  },
+  {
+    "file": "multimodal-embeddings.md",
+    "chunk": "([Jina AI][2])\n\n```bash\ncurl -X POST \"https://api.jina.ai/v1/embeddings\" \\\n  -H \"Authorization: Bearer $JINA_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d \"{\n        \\\"model\\\": \\\"jina-clip-v..."
+  },
+  {
+    "file": "multimodal-embeddings.md",
+    "chunk": "Google Vertex AI Multimodal Embeddings\n\nVertex AI\u2019s multimodal model (`multimodalembedding@001`) takes JSON instances combining text and **base64** image data...."
+  },
+  {
+    "file": "multimodal-embeddings.md",
+    "chunk": "([Google Cloud][5])\n\n```bash\ncurl -X POST \\\n  -H \"Authorization: Bearer $(gcloud auth print-access-token)\" \\\n  -H \"Content-Type: application/json\" \\\n  \"https://us-central1-aiplatform.googleapis.com/v1..."
+  },
+  {
+    "file": "narratives-with-llms.md",
+    "chunk": "## Narratives with LLMs\n\n#TODO...."
+  },
+  {
+    "file": "network-analysis-in-python.md",
+    "chunk": "..."
+  },
+  {
+    "file": "network-analysis-in-python.md",
+    "chunk": "## Network Analysis in Python\n\n[![Talk: Exploring the Movie Actor Network in Python](https://i.ytimg.com/vi_webp/uPL3VuRqOy4/sddefault.webp)](https://youtu.be/uPL3VuRqOy4)\n\nYou'll learn how to use net..."
+  },
+  {
+    "file": "ngrok.md",
+    "chunk": "## Tunneling: ngrok\n\n[Ngrok](https://ngrok.com/) is a tool that creates secure tunnels to your localhost, making your local development server accessible to the internet. It's essential for testing we..."
+  },
+  {
+    "file": "ngrok.md",
+    "chunk": "This generates a public URL that you can share with others.\n\nTo get started, log into `ngrok.com` and [get an authtoken from the dashboard](https://dashboard.ngrok.com/get-started/your-authtoken). Cop..."
+  },
+  {
+    "file": "ngrok.md",
+    "chunk": "For example:\n\n```bash\n# Start a local server on port 8000\nuv run -m http.server 8000\n\n# Start HTTP tunnel\nuvx ngrok http 8000\n```\n\nHere are useful things you can do with `ngrok http`:\n\n- `ngrok http f..."
+  },
+  {
+    "file": "nominatim-api-with-python.md",
+    "chunk": "..."
+  },
+  {
+    "file": "nominatim-api-with-python.md",
+    "chunk": "## Nominatim API with Python\n\n[![Nominatim Open Street Map with Python](https://i.ytimg.com/vi_webp/f0PZ-pphAXE/sddefault.webp)](https://youtu.be/f0PZ-pphAXE)\n\nYou'll learn how to get the latitude and..."
+  },
+  {
+    "file": "npx.md",
+    "chunk": "## JavaScript tools: npx\n\n[npx](https://docs.npmjs.com/cli/v8/commands/npx) is a command-line tool that comes with npm (Node Package Manager) and allows you to execute npm package binaries and run one..."
+  },
+  {
+    "file": "npx.md",
+    "chunk": "It's essential for modern JavaScript development and data science workflows.\n\nFor data scientists, npx is useful when:\n\n- Running JavaScript-based data visualization tools\n- Converting notebooks and d..."
+  },
+  {
+    "file": "npx.md",
+    "chunk": "# Lint JavaScript\nnpx typescript-node script.ts    # Run TypeScript directly\nnpx esbuild app.js               # Bundle JavaScript\nnpx jsdoc .                      # Generate JavaScript docs\n\n# Run spe..."
+  },
+  {
+    "file": "npx.md",
+    "chunk": "# Use prettier 3.2\n\n# Execute remote scripts (use with caution!)\nnpx github:user/repo            # Run from GitHub\n```\n\nWatch this introduction to npx (6 min):\n\n[![What you can do with npx (6 min)](ht..."
+  },
+  {
+    "file": "ollama.md",
+    "chunk": "..."
+  },
+  {
+    "file": "ollama.md",
+    "chunk": "## Local LLM Runner: Ollama\n\n[`ollama`](https://github.com/ollama/ollama) is a command-line tool for running open-source large language models entirely on your own machine\u2014no API keys, no vendor lock-..."
+  },
+  {
+    "file": "ollama.md",
+    "chunk": "See the full [Docs \u2197](https://ollama.com/docs) for installation details and troubleshooting.\n\n```bash\n# List installed and available models\nollama list\n\n# Download/pin a specific model version\nollama..."
+  },
+  {
+    "file": "ollama.md",
+    "chunk": "Brainstorm slide decks or blog outlines offline, without worrying about API quotas: `ollama run gemma-3 'Outline a slide deck on Agile best practices'`\n- **Data privacy**. Summarize sensitive document..."
+  },
+  {
+    "file": "ollama.md",
+    "chunk": "Validate PR descriptions or test YAML configurations in your pipeline without incurring API costs: `git diff origin/main | ollama run llama2 'Check for style and clarity issues'`\n- **Local app embeddi..."
+  },
+  {
+    "file": "ollama.md",
+    "chunk": "Power a desktop or web app via the local REST API for instant LLM features: `curl -X POST http://localhost:11434/api/chat -d '{\"model\":\"mistral\",\"prompt\":\"Translate to German\"}'`\n\nRead the full [Ollam..."
+  },
+  {
+    "file": "outlier-detection-with-excel.md",
+    "chunk": "..."
+  },
+  {
+    "file": "outlier-detection-with-excel.md",
+    "chunk": "## Outlier Detection with Excel\n\n[![Outlier detection with Excel](https://i.ytimg.com/vi_webp/sUTJb0F9eBw/sddefault.webp)](https://youtu.be/sUTJb0F9eBw)\n\nYou'll learn how to identify and handle outlie..."
+  },
+  {
+    "file": "parsing-json.md",
+    "chunk": "## Parsing JSON\n\nJSON is everywhere\u2014APIs, logs, configuration files\u2014and its nested or large structure can challenge memory and processing...."
+  },
+  {
+    "file": "parsing-json.md",
+    "chunk": "In this tutorial, we'll explore tools to flatten, stream, and query JSON data efficiently.\n\nFor example, we'll often need to process a multi-gigabyte log file from a web service where each record is a..."
+  },
+  {
+    "file": "parsing-json.md",
+    "chunk": "Here are the key tools and techniques for efficient JSON parsing:\n\n| Tool                                        | Extract from JSON......"
+  },
+  {
+    "file": "parsing-json.md",
+    "chunk": "| Why                                                               |\n| ------------------------------------------- | ---------------------- | ---------------------------------------------------------..."
+  },
+  {
+    "file": "parsing-json.md",
+    "chunk": "It excels in quick data exploration and can be integrated into shell scripts for automated data pipelines.\n\n**Example:** Sifting through server logs in JSON Lines format to extract error messages or a..."
+  },
+  {
+    "file": "parsing-json.md",
+    "chunk": "It's a neat alternative when you want to quickly pull out specific values or filter collections based on conditions.\n\n**Example:** Extracting user emails or filtering out inactive records from a compl..."
+  },
+  {
+    "file": "parsing-json.md",
+    "chunk": "[ijson](https://ijson.readthedocs.io/en/latest/) lets you stream and process JSON incrementally...."
+  },
+  {
+    "file": "parsing-json.md",
+    "chunk": "This method is ideal when your JSON file is too large or when you only need to work with part of the data.\n\n**Example:** Processing a continuous feed from an API that returns a large JSON array, such..."
+  },
+  {
+    "file": "parsing-json.md",
+    "chunk": "When you receive API data where one column holds nested JSON, flattening these structures lets you analyze and visualize the data using familiar DataFrame operations.\n\n**Example:** Flattening customer..."
+  },
+  {
+    "file": "parsing-json.md",
+    "chunk": "Its SQL-like syntax simplifies exploratory analysis on nested data.\n\n**Example:** Performing ad-hoc analytics on streaming JSON logs from a web service, such as calculating average response times or a..."
+  },
+  {
+    "file": "project-tds-virtual-ta.md",
+    "chunk": "# Project: TDS Virtual TA\n\nCreate a virtual Teaching Assistant Discourse responder.\n\n## Background\n\nYou are a clever student who has joined IIT Madras' Online Degree in Data Science...."
+  },
+  {
+    "file": "project-tds-virtual-ta.md",
+    "chunk": "You have just enrolled in the [Tools in Data Science](https://tds.s-anand.net/#/2025-01/) course.\n\nOut of kindness for your teaching assistants, you have decided to build an API that can automatically..."
+  },
+  {
+    "file": "project-tds-virtual-ta.md",
+    "chunk": "You may host it anywhere. Let's assume it's at `https://app.example.com/api/`.\n\nThe endpoint must accept a POST request, e.g...."
+  },
+  {
+    "file": "project-tds-virtual-ta.md",
+    "chunk": "`POST https://app.example.com/api/` with a student question as well as optional base64 file attachments as JSON.\n\nFor example, here's how anyone can make a request:\n\n```bash\ncurl \"https://app.example...."
+  },
+  {
+    "file": "project-tds-virtual-ta.md",
+    "chunk": "Use the OpenAI API directly for this question.\",\n  \"links\": [\n    {\n      \"url\": \"https://discourse.onlinedegree.iitm.ac.in/t/ga5-question-8-clarification/155939/4\",\n      \"text\": \"Use the model that\u2019..."
+  },
+  {
+    "file": "project-tds-virtual-ta.md",
+    "chunk": "Anand used, to get the number of tokens and multiply that by the given rate.\"\n    }\n  ]\n}\n```\n\nThe response must be sent within 30 seconds.\n\n## Evaluate your application\n\nHere are a few [sample questi..."
+  },
+  {
+    "file": "project-tds-virtual-ta.md",
+    "chunk": "Edit [`project-tds-virtual-ta-promptfoo.yaml`](project-tds-virtual-ta-promptfoo.yaml \":ignore\") to replace `providers[0].config.url` with your API URL.\n2. Run this script:\n\n   ```bash\n   npx -y prompt..."
+  },
+  {
+    "file": "project-tds-virtual-ta.md",
+    "chunk": "You may use any platform.\n\n(If you use ngrok, ensure that it is running continuously until you get your results.)\n\n## Share your code\n\n- [Create a new _public_ GitHub repository](https://docs.github.c..."
+  },
+  {
+    "file": "project-tds-virtual-ta.md",
+    "chunk": "Correct answers will be awarded up to 2 marks each.\n- Your score will be the sum of the marks above. No normalization. What you get is what you get.\n\nBonus:\n\n- 1 mark if your GitHub repo includes a sc..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "## Prompt Engineering\n\nPrompt engineering is the process of crafting effective prompts for large language models (LLMs).\n\nOne of the best ways to approach prompt engineering is to think of LLMs as a s..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "Explore:\n\n- [Anthropic Prompt Optimizer](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-improver)\n- [OpenAI Prompt Generation](https://platform.openai.com/docs/guides/p..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "Include all necessary context, goals, and details so the model understands the full picture.\n\n- **BAD**: _Explain gravitation lensing._ (Reason: Vague and lacks context or detail.)\n- **GOOD**: _Explai..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "Give every detail the listener needs.\n> The clearer you are, the better the answer you\u2019ll get.\n> For example, don't just say, Explain Gravitation Lensing.\n> Say, Explain the concept of gravitational l..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "This helps the model produce outputs consistent with your desired style.\n\n- **BAD**: _Explain how to tie a bow tie._ (Reason: No examples or reference points given.)\n- **GOOD**:\n  _Explain how to tie..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "_To tie a necktie, you place it around the collar and loop it through..._\n\n  _Now, apply a similar step-by-step style to describe how to tie a bow tie._ (Reason: Provides clear examples and a pattern..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "It makes everything easier to follow.\n\n[Anthropic](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/multishot-prompting)\n| [OpenAI](https://platform.openai.com/docs/guides/promp..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "This leads to more logical, well-structured answers.\n\n- **BAD**: _Given this transcript, is the customer satisfied?_ (Reason: No prompt for structured reasoning.)\n- **GOOD**: _Given this transcript, i..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "Don\u2019t ask the model to just give the final answer right away.\n> That's like asking someone to answer with the first thing that pops into their head.\n> Instead, ask them to break down their thought pro..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "This provides context and helps tailor the response style.\n\n- **BAD**: _Explain how to fix a software bug._ (Reason: No role or perspective given.)\n- **GOOD**: _You are a seasoned software engineer. E..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "Maybe they\u2019re a seasoned software engineer fixing a legacy bug, or an experienced copy editor revising a publication.\n> By clearly telling the model who they are, you help them speak with just the rig..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "This helps the model understand structure and requirements.\n\n- **BAD**: _Here\u2019s what I want: Provide a summary and then an example._ (Reason: Unstructured, no clear separation of tasks.)\n- **GOOD**:..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "XML tags are neat little labels on that box.\n> They help keep parts sorted, so nothing gets lost in the shuffle.\n\n[Anthropic](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/us..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "This ensures the output is machine-readable and organized.\n\n- **BAD**: _Just list the items._ (Reason: Unstructured plain text makes parsing harder.)\n- **GOOD**:\n\n  ````markdown\n  Organize as an array..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "[JSON schema](https://json-schema.org/) is a way to describe the structure of JSON data. An easy way to get the JSON schema is to give ChatGPT sample output and ask it to generate the schema.\n\n> Imagi..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "Plain text is like dumping everything into one messy pile \u2014 it\u2019s hard to find what you need later.\n> JSON, on the other hand, is like packing your data into neat, labeled boxes within boxes.\n> Everyth..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "LLMs handle binary choices better than numeric scales.\n\n- **BAD**: _On a scale of 1-10, how confident are you that this method works?_ (Reason: Asks for a numeric rating, which can be imprecise.)\n- **..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "Models are not good with numbers.\n> They don't know how to grade something 7 versus 8 on a 10 point scale. \u2018Yes or no?\u2019 is simple. It\u2019s clear. It\u2019s quick.\n> So, break your question into simple parts t..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "This makes it less likely to justify itself and more likely to think deeper, leading to more accurate results.\n\n- **BAD**: _What is the best route to take?_ (Reason: Direct question without prompting..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "Then, after you\u2019ve reasoned it out, state your final recommendation for the best route._ (Reason: Forces the model to show its reasoning process before giving the final answer.)\n\n> BEFORE making its f..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "It is also more likely to think deeper.\n\n### Use proper spelling and grammar\n\nA well-written, grammatically correct prompt clarifies expectations. Poorly structured prompts can confuse the model.\n\n- *..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "Please provide a detailed, step-by-step explanation._ (Reason: Proper spelling and clarity lead to a more coherent response.)\n\n> If your question sounds like gibberish, expect a messy answer. Speak cl..."
+  },
+  {
+    "file": "prompt-engineering.md",
+    "chunk": "How to write clear and detailed prompts to improve answers.\n3. Tips for creating interactive and personalized AI responses.\n4. Advanced topics like **AI mistakes** (hallucinations) and **text embeddin..."
+  },
+  {
+    "file": "rag-cli.md",
+    "chunk": "## Retrieval Augmented Generation (RAG) with the CLI\n\nRetrieval Augmented Generation (RAG) combines retrieval (searching a knowledge base) with generation (using an LLM) to produce answers grounded in..."
+  },
+  {
+    "file": "rag-cli.md",
+    "chunk": "Instead of relying solely on a general-purpose LLM, RAG lets you feed it the most relevant chunks from your corpus at query time, improving accuracy, reducing hallucinations, and allowing you to answe..."
+  },
+  {
+    "file": "rag-cli.md",
+    "chunk": "For example:\n\n```bash\nQ=\"What does the author affectionately call the => syntax?\"\n# Answer: fat arrow\n\nQ=\"What lets you walk every child node of a ts.Node?\"\n# Answer: node.getChildren()\n\nQ=\"What are c..."
+  },
+  {
+    "file": "rag-cli.md",
+    "chunk": "Below is a step\u2011by\u2011step example using the TypeScript book as a data source.\n\n### 1. Clone the repository\n\n```bash\ngit clone --depth 1 https://github.com/basarat/typescript-book\ncd typescript-book\n```..."
+  },
+  {
+    "file": "rag-cli.md",
+    "chunk": "Split Markdown files into chunks\n\n```bash\n(\n  shopt -s globstar\n  for f in **/*.md; do\n    uvx --from split_markdown4gpt mdsplit4gpt \"$f\" --model gpt-4o --limit 4096 --separator \"===SPLIT===\" \\\n    |..."
+  },
+  {
+    "file": "rag-cli.md",
+    "chunk": "[bash shopt manual](https://www.gnu.org/software/bash/manual/html_node/The-Shopt-Builtin.html)\n- `uvx --from split_markdown4gpt mdsplit4gpt`: [a tool](https://github.com/twardoch/split-markdown4gpt) t..."
+  },
+  {
+    "file": "rag-cli.md",
+    "chunk": "Generate embeddings\n\n```bash\nllm embed-multi typescript-book --model 3-small --store --format nl chunks.json\n```\n\n- `embed-multi`: computes embeddings for each entry in `chunks.json`.\n- `typescript-bo..."
+  },
+  {
+    "file": "rag-cli.md",
+    "chunk": "[llm CLI embed-multi](https://github.com/kerenter/llm#embed-multi)\n\nThis stores the embeddings in a collection called `typescript-book`.\n\n```bash\nllm collections path  # shows where the collections ar..."
+  },
+  {
+    "file": "rag-cli.md",
+    "chunk": "Find similar topics\n\n```bash\nllm similar typescript-book -n 3 -c \"What does the author affectionately call the => syntax?\"\n```\n\nThis returns the 3 chunksmost similar to the question posed.\n\n- `similar..."
+  },
+  {
+    "file": "rag-cli.md",
+    "chunk": "Answer a question using retrieved context\n\n```bash\nQ=\"What does the author affectionately call the => syntax?\"\nllm similar typescript-book -n 3 -c \"$Q\" \\\n  | jq '.content' \\\n  | llm -s \"$Q - Answer ON..."
+  },
+  {
+    "file": "rag-cli.md",
+    "chunk": "Pipe into `llm -s`, instructing the model:\n   - `-s`: stream a prompt directly to the LLM.\n   - `\"$Q - Answer ONLY from these notes. Cite verbatim from notes.\"`: ensures the response is grounded.\n5...."
+  },
+  {
+    "file": "rag-cli.md",
+    "chunk": "`uvx streamdown` formats the streamed LLM output for easy reading.\n\n<!--\n\nMore questions that cannot be answered via keyword search:\n\nQ=\"Which shorthand lets you both declare and initialize a class me..."
+  },
+  {
+    "file": "rawgraphs.md",
+    "chunk": "..."
+  },
+  {
+    "file": "rawgraphs.md",
+    "chunk": "## RAWgraphs\n\n[![RAWGraphs 1.0 - Introduction (1 min)](https://i.ytimg.com/vi_webp/2TtYlty-M5g/sddefault.webp)](https://youtu.be/2TtYlty-M5g)\n\n- [RAWgraphs](https://www.rawgraphs.io/)\n- [How to make A..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "# Tools in Data Science - May 2025\n\n[Tools in Data Science](https://study.iitm.ac.in/ds/course_pages/BSSE2002.html) is a practical diploma level data science course at IIT Madras that teaches\npopular..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "From statistics to algorithms to writing Python code to building models.\n\nBut one critical subject that's rarely covered is: what tools should I pick and how do I become proficient in them?\n\nThese too..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "But soon, you'll just pick something from HuggingFace.\n- You learn to write a log parser over weeks. Instead, your boss writes a `sed` + `grep` script in minutes.\n\n[![](https://imgs.xkcd.com/comics/li..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "You'll be a **_lot_ more productive** than your peers.\n\n</details>\n\n<details>\n<summary><strong>This course is quite hard</strong></summary>\n\nHere's students' feedback:\n\n- [2 out of 5 students in the J..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "Take it in your last semester if possible.\n  [#](https://discourse.onlinedegree.iitm.ac.in/t/diploma-course-feedback-t32024-and-course-selection-t12025-thread/160032/45)\n  [#](https://discourse.online..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "It takes more time than typical 3-credit courses.\n  [#](https://discourse.onlinedegree.iitm.ac.in/t/concerns-regarding-unfair-grading-practices-for-tds-project-2/160611/11)\n  [#](https://discourse.onl..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "It'll be too tough for you now.\n\n</details>\n\n<details>\n<summary><strong>But it's probably worth it.</strong></summary>\n\nHere's students' feedback:\n\n- [Course experience and farewell post](https://disc..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "Good data scientists are good programmers. Data scientists don't just analyze data or train models. They source data, clean it, transform it, visualize it, deploy it, and automate the whole process...."
+  },
+  {
+    "file": "README.md",
+    "chunk": "But you _do_ need programming to learn many of them.\n\n</details>\n\n<details>\n<summary><strong>If you passed, don't enroll again</strong></summary>\n\nThe course is public, so you can always audit it.\n\nAl..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "You can work in groups. You can share code. Even in projects, assignments, and exams (except the final end-term exam).\n\n**Why should you copy?** Because in real life, there's no time to re-invent the..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "If you're short of time, prioritize.\n\n**To learn better, teach** what you've learnt.\n\n</details>\n\n## We cover 7 modules in 12 weeks\n\nThe content evolves with technology and feedback.\nTrack the [commit..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "**[Large Language Models](large-language-models.md)** that make your work easier and your apps smarter.\n4. **[Data Sourcing](data-sourcing.md)** to get data from the web, files, and databases.\n5. **[D..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "**[Data Visualization](data-visualization.md)** to communicate those insights as visual stories.\n\n## Anyone can audit this course\n\nEveryone has access to:\n\n- Course content at <https://tds.s-anand.net..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "Please drop this course (do it in a later term) if you score low. It'll be too tough for you now.\n- **Remote exams are open and hard**\n  - You can use the Internet, WhatsApp, ChatGPT, your notes, your..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "It's easy.\n- **Projects test application**. The projects test how well you apply what you learnt in a real-world context.\n- **Bonus activities may be posted on Discourse**. See [previous bonus activit..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "Learn to prompt them _robustly_ to get higher marks.\n\n## Constantly check communications\n\nCheck these three links regularly to keep up with the course.\n\n1. **[Seek Notifications](https://seek.onlinede..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "**[Your email](https://mail.google.com/)** for Course Announcements. [Seek](https:/seek.onlinedegree.iitm.ac.in/) Inbox are forwarded to your email. Check daily. Check spam folders too.\n3. **[TDS Disc..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "Email [support@study.iitm.ac.in](mailto:support@study.iitm.ac.in) cc: [discourse-staff1@study.iitm.ac.in](mailto:discourse-staff1@study.iitm.ac.in) if you can't access Discourse.\n\n## People who help y..."
+  },
+  {
+    "file": "README.md",
+    "chunk": "Delhi University).\n  [21f1005763@ds.study.iitm.ac.in](mailto:21f1005763@ds.study.iitm.ac.in) |\n  [@Amit1](https://discourse.onlinedegree.iitm.ac.in/u/Amit1)\n\n-->\n\nTheir **job** is to help you...."
+  },
+  {
+    "file": "README.md",
+    "chunk": "Trouble them for your slightest doubts!\n\n## Course Links\n\n- [TDS: Discourse](https://discourse.onlinedegree.iitm.ac.in/c/courses/tds-kb/34) - Ask questions, get help, and discuss with your peers.\n- [I..."
+  },
+  {
+    "file": "regression-with-excel.md",
+    "chunk": "..."
+  },
+  {
+    "file": "regression-with-excel.md",
+    "chunk": "## Regression with Excel\n\n[![Regression with Excel](https://i.ytimg.com/vi_webp/AERQBMIHwXA/sddefault.webp)](https://youtu.be/AERQBMIHwXA)\n\nYou'll learn to perform regression analysis using Excel, cov..."
+  },
+  {
+    "file": "rest-apis.md",
+    "chunk": "## REST APIs\n\nREST (Representational State Transfer) APIs are the standard way to build web services that allow different systems to communicate over HTTP. They use standard HTTP methods and JSON for..."
+  },
+  {
+    "file": "rest-apis.md",
+    "chunk": "**HTTP Methods**\n   - `GET`: Retrieve data\n   - `POST`: Create new data\n   - `PUT/PATCH`: Update existing data\n   - `DELETE`: Remove data\n2. **Status Codes**\n   - `2xx`: Success (200 OK, 201 Created)..."
+  },
+  {
+    "file": "rest-apis.md",
+    "chunk": "Run this `server.py` script via `uv run server.py`:\n\n```python\n# /// script\n# requires-python = \">=3.13\"\n# dependencies = [\n#     \"fastapi\",\n#     \"uvicorn\",\n# ]\n# ///\nfrom fastapi import FastAPI, HTT..."
+  },
+  {
+    "file": "rest-apis.md",
+    "chunk": "**Use Nouns for Resources**\n   - Good: `/users`, `/posts`\n   - Bad: `/getUsers`, `/createPost`\n2. **Version Your API**\n   ```\n   /api/v1/users\n   /api/v2/users\n   ```\n3. **Handle Errors Consistently**..."
+  },
+  {
+    "file": "rest-apis.md",
+    "chunk": "**Implement Pagination**\n   ```\n   /api/posts?page=2&limit=10\n   ```\n\nTools:\n\n- [Postman](https://www.postman.com/): API testing and documentation\n- [Swagger/OpenAPI](https://swagger.io/): API documen..."
+  },
+  {
+    "file": "revealjs.md",
+    "chunk": "...."
+  },
+  {
+    "file": "scheduled-scraping-with-github-actions.md",
+    "chunk": "## Scheduled Scraping with GitHub Actions\n\nGitHub Actions provides an excellent platform for running web scrapers on a schedule...."
+  },
+  {
+    "file": "scheduled-scraping-with-github-actions.md",
+    "chunk": "This tutorial shows how to automate data collection from websites using GitHub Actions workflows.\n\n### Key Concepts\n\n- **Scheduling**: Use [cron syntax](https://docs.github.com/en/actions/using-workfl..."
+  },
+  {
+    "file": "scheduled-scraping-with-github-actions.md",
+    "chunk": "**Cache Dependencies**: Use GitHub's caching to speed up package installation\n2. **Handle Errors**: Implement retries and error logging\n3. **Rate Limiting**: Add delays between requests to avoid overw..."
+  },
+  {
+    "file": "scheduled-scraping-with-github-actions.md",
+    "chunk": "**Monitoring**: Set up notifications for workflow failures\n\n### Tools and Resources\n\n- [httpx](https://www.python-httpx.org/): Async HTTP client\n- [GitHub Actions Marketplace](https://github.com/marke..."
+  },
+  {
+    "file": "scraping-emarketer.md",
+    "chunk": "## Scraping emarketer\n\nIn this live scraping session, we explore a real-life scenario where Straive had to scrape data from emarketer.com for a demo...."
+  },
+  {
+    "file": "scraping-emarketer.md",
+    "chunk": "This is a fairly realistic and representative way of how one might go about scraping a website.\n\n[![Live scraping session](https://i.ytimg.com/vi_webp/ZzUsDE1XjhE/sddefault.webp)](https://youtu.be/ZzU..."
+  },
+  {
+    "file": "scraping-imdb-with-javascript.md",
+    "chunk": "..."
+  },
+  {
+    "file": "scraping-imdb-with-javascript.md",
+    "chunk": "## Scraping IMDb with JavaScript\n\n[![Scraping the IMDb with Browser JavaScript](https://i.ytimg.com/vi_webp/YVIKZqZIcCo/sddefault.webp)](https://youtu.be/YVIKZqZIcCo)\n\nYou'll learn how to scrape the [..."
+  },
+  {
+    "file": "scraping-live-sessions.md",
+    "chunk": "..."
+  },
+  {
+    "file": "scraping-live-sessions.md",
+    "chunk": "## Scraping: Live Sessions\n\n[![Intro to Web scraping and HTML](https://i.ytimg.com/vi_webp/cAriusuJsmw/sddefault.webp)](https://youtu.be/cAriusuJsmw)\n\nFundamentals of web scraping with urllib and Beau..."
+  },
+  {
+    "file": "scraping-pdfs-with-tabula.md",
+    "chunk": "..."
+  },
+  {
+    "file": "scraping-pdfs-with-tabula.md",
+    "chunk": "## Scraping PDFs with Tabula\n\n[![Scrape PDFs with Tabula Python library](https://i.ytimg.com/vi_webp/yDoKlKyxClQ/sddefault.webp)](https://youtu.be/yDoKlKyxClQ)\n\nYou'll learn how to scrape tables from..."
+  },
+  {
+    "file": "scraping-pdfs-with-tabula.md",
+    "chunk": "[Video](https://youtu.be/vmEHCJofslg)...."
+  },
+  {
+    "file": "scraping-with-excel.md",
+    "chunk": "..."
+  },
+  {
+    "file": "scraping-with-excel.md",
+    "chunk": "## Scraping with Excel\n\n[![Weather Scraping with Excel: Get the Data](https://i.ytimg.com/vi_webp/OCl6UdpmzRQ/sddefault.webp)](https://youtu.be/OCl6UdpmzRQ)\n\nYou'll learn how to [import tables on the..."
+  },
+  {
+    "file": "scraping-with-excel.md",
+    "chunk": "See [Importing External Data Into Excel on Mac](https://youtu.be/PuqVoVNWF20)....."
+  },
+  {
+    "file": "scraping-with-google-sheets.md",
+    "chunk": "..."
+  },
+  {
+    "file": "scraping-with-google-sheets.md",
+    "chunk": "## Scraping with Google Sheets\n\n[![Scraping with Google Sheets](https://i.ytimg.com/vi_webp/eYQEk7XJM7s/sddefault.webp)](https://youtu.be/eYQEk7XJM7s)\n\nYou'll learn how to [import tables on the web us..."
+  },
+  {
+    "file": "splitting-text-in-excel.md",
+    "chunk": "## Splitting Text in Excel\n\n[![Convert text-to-columns in Excel](https://i.ytimg.com/vi_webp/fQeADnqiOAg/sddefault.webp)](https://youtu.be/fQeADnqiOAg)\n\nYou'll learn how to transform a single-column d..."
+  },
+  {
+    "file": "spreadsheets.md",
+    "chunk": "## Spreadsheet: Excel, Google Sheets\n\nYou'll use spreadsheets for data cleaning and exploration. The most popular spreadsheet program is [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365..."
+  },
+  {
+    "file": "spreadsheets.md",
+    "chunk": "If not, make sure to learn the basics of both.\n\nGo through the [**Microsoft Excel** video training](https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb..."
+  },
+  {
+    "file": "sqlite.md",
+    "chunk": "## Database: SQLite\n\nRelational databases are used to store data in a structured way. You'll often access databases created by others for analysis.\n\nPostgreSQL, MySQL, MS SQL, Oracle, etc. are popular..."
+  },
+  {
+    "file": "sqlite.md",
+    "chunk": "It's lightweight but very scalable and powerful.\n\nWatch these introductory videos to understand SQLite and how it's used in Python (34 min):\n\n[![SQLite Introduction - Beginners Guide to SQL and Databa..."
+  },
+  {
+    "file": "sqlite.md",
+    "chunk": "that you should know about and we may cover later.\n\nCore Concepts:\n\n```sql\n-- Create a table\nCREATE TABLE users (\n    id INTEGER PRIMARY KEY,\n    name TEXT NOT NULL,\n    email TEXT UNIQUE,\n    created..."
+  },
+  {
+    "file": "sqlite.md",
+    "chunk": "**Database Management**\n\n   ```sql\n   -- Backup database\n   .backup 'backup.db'\n\n   -- Import CSV\n   .mode csv\n   .import data.csv table_name\n\n   -- Export results\n   .headers on\n   .mode csv\n   .outp..."
+  },
+  {
+    "file": "sqlite.md",
+    "chunk": "**Performance Optimization**\n\n   ```sql\n   -- Create index\n   CREATE INDEX idx_user_email ON users(email);\n\n   -- Analyze query\n   EXPLAIN QUERY PLAN\n   SELECT * FROM users WHERE email LIKE '%@example..."
+  },
+  {
+    "file": "sqlite.md",
+    "chunk": "**Data Analysis**\n\n   ```sql\n   -- Time series aggregation\n   SELECT\n       date(timestamp),\n       COUNT(*) as events,\n       AVG(duration) as avg_duration\n   FROM events\n   GROUP BY date(timestamp);..."
+  },
+  {
+    "file": "tds-gpt-reviewer.md",
+    "chunk": "# TDS GPT Reviewer\n\nAfter the later parts of this course's contents were written, we ran it through a [Technical Content Reviewer GPT](https://chatgpt.com/g/g-6777656ed3b8819187b6f17d9f343853-technica..."
+  },
+  {
+    "file": "tds-gpt-reviewer.md",
+    "chunk": "These were generated by the [OpenAI Prompt Generation](https://platform.openai.com/docs/guides/prompt-generation) tool.\n\n```markdown\nAs a **Content Reviewer** for a high school\u2013level course on Tools i..."
+  },
+  {
+    "file": "tds-gpt-reviewer.md",
+    "chunk": "**Check for Correctness and Consistency**\n   - Verify technical and factual accuracy.\n   - Ensure internal consistency without contradictions.\n2. **Check for Clarity and Approachability**\n   - Ensure..."
+  },
+  {
+    "file": "tds-gpt-reviewer.md",
+    "chunk": "**Provide Feedback for Improvement**\n   - Offer actionable suggestions for fixing, clarifying, or reorganizing content.\n   - Propose alternative phrasing if text is vague, complex, or verbose.\n\n# Step..."
+  },
+  {
+    "file": "tds-gpt-reviewer.md",
+    "chunk": "Provide direct examples of how to improve the highlighted issues.\n\n# Output Format\n\nRespond using **Markdown** with the following structure:\n\n1. **Summary of Findings**\n   - A concise paragraph outlin..."
+  },
+  {
+    "file": "tds-gpt-reviewer.md",
+    "chunk": "**Detailed Review**\n   - **Correctness and Consistency**: Note factual errors or inconsistencies, suggesting corrections.\n   - **Clarity and Approachability**: Identify overly advanced or unclear sect..."
+  },
+  {
+    "file": "tds-gpt-reviewer.md",
+    "chunk": "**Actionable Improvement Suggestions**\n   - Provide specific sentences, bullet points, or rewritten examples to illustrate improvements.\n\n# Notes\n\n- Maintain a constructive review tone, not content ge..."
+  },
+  {
+    "file": "tds-gpt-reviewer.md",
+    "chunk": "Transcribe the video via [YouTube Transcript](https://youtubetranscript.com/) or Whisper. Then: `Summarize this video transcript crisply for a high school student.`...."
+  },
+  {
+    "file": "tds-ta-instructions.md",
+    "chunk": "..."
+  },
+  {
+    "file": "tds-ta-instructions.md",
+    "chunk": "# TDS TA Instructions\n\nThe TDS TA is a virtual assistant that helps you with your doubts.\n\nIt has been trained on course content created as follows:\n\n```bash\n# Clone the course repository\ngit clone ht..."
+  },
+  {
+    "file": "tds-ta-instructions.md",
+    "chunk": "These were generated by the [OpenAI Prompt Generation](https://platform.openai.com/docs/guides/prompt-generation) tool.\n\n```markdown\nAs a Teaching Assistant (TA) for the Tools in Data Science course a..."
+  },
+  {
+    "file": "tds-ta-instructions.md",
+    "chunk": "Cite ONLY from the relevant <source>. ALWAYS cite verbatim. Mention ALL material relevant to the question.\n3. Search online for additional answers. Share results WITH CITATION LINKS.\n4. Think step-by-..."
+  },
+  {
+    "file": "topic-modeling.md",
+    "chunk": "..."
+  },
+  {
+    "file": "topic-modeling.md",
+    "chunk": "## Topic Modeling\n\n[![LLM Topic Modeling](https://i.ytimg.com/vi_webp/eQUNhq91DlI/sddefault.webp)](https://youtu.be/eQUNhq91DlI)\n\nYou'll learn to use text embeddings to find text similarity and use th..."
+  },
+  {
+    "file": "transforming-images.md",
+    "chunk": "## Transforming Images\n\n### Image Processing with PIL (Pillow)\n\n[![Python Tutorial: Image Manipulation with Pillow (16 min)](https://i.ytimg.com/vi_webp/6Qs3wObeWwc/sddefault.webp)](https://youtu.be/6..."
+  },
+  {
+    "file": "transforming-images.md",
+    "chunk": "It handles various formats (PNG, JPEG, GIF, etc.) and provides operations from basic resizing to complex filters.\n\nHere's a minimal example showing common operations:\n\n```python\n# /// script\n# require..."
+  },
+  {
+    "file": "transforming-images.md",
+    "chunk": "It's particularly useful for:\n\n- Batch processing large image collections\n- Complex image transformations\n- High-quality format conversion\n- Creating image thumbnails\n- Adding text and watermarks\n\nBas..."
+  },
+  {
+    "file": "transforming-images.md",
+    "chunk": "Use `-strip` to remove metadata and reduce file size\n2. Monitor memory usage with `-limit memory 1GB`\n3. Use `-define` for format-specific options\n4. Process in parallel with `-parallel`\n5...."
+  },
+  {
+    "file": "transforming-images.md",
+    "chunk": "Use `-monitor` to track progress\n\nError Handling:\n\n```bash\n# Check image validity\nidentify -regard-warnings input.jpg\n\n# Get detailed error information\nconvert input.jpg output.jpg 2>&1 | grep -i \"err..."
+  },
+  {
+    "file": "unicode.md",
+    "chunk": "## Unicode\n\nEver noticed when you copy-paste some text and get garbage symbols? Or see garbage when you load a CSV file? This video explains why...."
+  },
+  {
+    "file": "unicode.md",
+    "chunk": "It covers how computers store text (called character encoding) and why it sometimes goes wonky.\n\nLearn about ASCII (the original 7-bit encoding system that could only handle 128 characters), why that..."
+  },
+  {
+    "file": "unicode.md",
+    "chunk": "A signature called BOM (Byte Order Mark)helps computers know exactly how to read text files correctly.\n\nLearn how Unicode, UTF-8 and character encoding works. This is a common gotcha when building app..."
+  },
+  {
+    "file": "unicode.md",
+    "chunk": "Here are key concepts you need to understand:\n\n- **Character Encodings**: Different ways to represent text in computers\n  - ASCII (7-bit): Limited to 128 characters, English-only\n  - UTF-8: Variable-w..."
+  },
+  {
+    "file": "uv.md",
+    "chunk": "## Python tools: uv\n\n[Install uv](https://docs.astral.sh/uv/getting-started/installation/).\n\n[`uv`](https://docs.astral.sh/uv/) is a fast Python package and project manager that's becoming the standar..."
+  },
+  {
+    "file": "uv.md",
+    "chunk": "It replaces tools like pip, conda, pipx, poetry, pyenv, twine, and virtualenv into one, enabling:\n\n- **Python Version Management**: uv installs and manages _multiple_ Python versions, allowing develop..."
+  },
+  {
+    "file": "uv.md",
+    "chunk": "It maintains a universal lockfile, uv.lock, to ensure reproducible installations across different systems.\n- **Project Execution**: The `uv run` command allows for the execution of scripts and applica..."
+  },
+  {
+    "file": "uv.md",
+    "chunk": "This automatically installs Python and dependencies.\nuv run script.py\n\n# Run a Python script directly from the Internet\nuv run https://example.com/script.py\n\n# Run a Python script without installing\nu..."
+  },
+  {
+    "file": "uv.md",
+    "chunk": "For example:\n\n```python\n# /// script\n# requires-python = \">=3.11\"\n# dependencies = [\n#   \"httpx\",\n#   \"pandas\",\n# ]\n# ///\n```\n\n[![uv - Python package and project management | Inline Script Metadata (2..."
+  },
+  {
+    "file": "vector-databases.md",
+    "chunk": "## Vector Databases\n\nVector databases are specialized databases that store and search vector embeddings efficiently.\n\nUse vector databases when your embeddings exceed available memory or when you want..."
+  },
+  {
+    "file": "vector-databases.md",
+    "chunk": "You can can use `numpy` for these tasks.)\n\nVector databases are an evolving space.\n\nThe first generation of vector databases were written in C and typically used an algorithm called [HNSW](https://en...."
+  },
+  {
+    "file": "vector-databases.md",
+    "chunk": "Some popular ones are:\n\n- **[chroma 19,637 \u2b50 May 2025](https://github.com/chroma-core/chroma)**\n- **[qdrant 23,341 \u2b50 May 2025](https://github.com/qdrant/qdrant)**\n- **[lancedb 6,327 \u2b50 May 2025](https:..."
+  },
+  {
+    "file": "vector-databases.md",
+    "chunk": "For example:\n\n- **[DuckDB](https://duckdb.org/)**: Supports vector search with [`vss`](https://duckdb.org/docs/extensions/vss.html).\n- **[SQLite](https://www.sqlite.org/)**: Supports vector search wit..."
+  },
+  {
+    "file": "vector-databases.md",
+    "chunk": "WTF are they? (3 min)](https://i.ytimg.com/vi/klTvEwg3oJ4/sddefault.jpg)](https://youtu.be/klTvEwg3oJ4)\n\n### ChromaDB\n\nHere's a minimal example using Chroma:\n\n```python\n# /// script\n# requires-python..."
+  },
+  {
+    "file": "vercel.md",
+    "chunk": "..."
+  },
+  {
+    "file": "vercel.md",
+    "chunk": "## Serverless hosting: Vercel\n\n<!--\n\nWhy Vercel? I evaluated from https://survey.stackoverflow.co/2024/technology#2-cloud-platforms\n\n- AWS, Azure, Google Cloud are too complex for beginners\n- Cloudfla..."
+  },
+  {
+    "file": "vercel.md",
+    "chunk": "They're perfect for small web tools that _don't need to run all the time_...."
+  },
+  {
+    "file": "vercel.md",
+    "chunk": "Here are some common real-life uses:\n\n- A contact form that emails you when someone wants to hire you (runs for 2-3 seconds, a few times per day)\n- A tool that converts uploaded photos to black and wh..."
+  },
+  {
+    "file": "vercel.md",
+    "chunk": "For example, if 100 people fill out your contact form at once, the platform creates 100 temporary copies of your code to handle them all. When they're done, these copies disappear. It's cheaper than r..."
+  },
+  {
+    "file": "vercel.md",
+    "chunk": "They run in a cloud environment and are scaled up and down automatically. But this means you write programs in a different style. For example:\n\n- You can't `pip install` packages - you have to use `re..."
+  },
+  {
+    "file": "vercel.md",
+    "chunk": "Pushing to your repository automatically triggers new deployments.\n\nHere's a [quickstart](https://vercel.com/docs/functions/runtimes/python). [Sign-up with Vercel](https://vercel.com/signup). Create a..."
+  },
+  {
+    "file": "vercel.md",
+    "chunk": "`main.py`.\n\n```python\n# main.py\nfrom fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get(\"/\")\ndef read_root():\n    return {\"message\": \"Hello, World!\"}\n```\n\nAdd a `vercel.json` file to the root of your r..."
+  },
+  {
+    "file": "vercel.md",
+    "chunk": "Use `npx vercel env add` to add environment variables. In your code, use `os.environ.get('SECRET_KEY')` to access them.\n\n### Videos\n\n[![Vercel Product Walkthrough](https://i.ytimg.com/vi_webp/sPmat30S..."
+  },
+  {
+    "file": "vision-models.md",
+    "chunk": "..."
+  },
+  {
+    "file": "vision-models.md",
+    "chunk": "## Vision Models\n\n[![LLM Vision Models](https://i.ytimg.com/vi_webp/FgT_Mk_bakQ/sddefault.webp)](https://youtu.be/FgT_Mk_bakQ)\n\nYou'll learn how to use LLMs to interpret images and extract useful info..."
+  },
+  {
+    "file": "vision-models.md",
+    "chunk": "`low` uses fewer tokens at lower detail. `high` uses more tokens for higher detail.\n        - `\"image_url\": {\"url\": \"https://upload.wikimedia.org/wikipedia/commons/3/34/Correlation_coefficient.png\"}`:..."
+  },
+  {
+    "file": "vision-models.md",
+    "chunk": "For example:\n\n```bash\n# Download image and convert to base64 in one step\nIMAGE_BASE64=$(curl -s \"https://upload.wikimedia.org/wikipedia/commons/3/34/Correlation_coefficient.png\" | base64 -w 0)\n\n# Send..."
+  },
+  {
+    "file": "visualizing-animated-data-with-flourish.md",
+    "chunk": "## Visualizing Animated Data with Flourish\n\n[![Visualizing animated data with Flourish](https://i.ytimg.com/vi_webp/JrnIu5Bm8i4/sddefault.webp)](https://youtu.be/JrnIu5Bm8i4)...."
+  },
+  {
+    "file": "visualizing-animated-data-with-powerpoint.md",
+    "chunk": "## Visualizing Animated Data with PowerPoint\n\n[![Visualizing animated data with PowerPoint](https://i.ytimg.com/vi_webp/umHlPDFVWr0/sddefault.webp)](https://youtu.be/umHlPDFVWr0)\n\n- [How to make a bar..."
+  },
+  {
+    "file": "visualizing-charts-with-excel.md",
+    "chunk": "## Visualizing Charts with Excel\n\n[![Visualizing charts with Google Data StudioTools to visualize numbers](https://i.ytimg.com/vi_webp/sORnCj52COw/sddefault.webp)](https://youtu.be/sORnCj52COw?t=1813s..."
+  },
+  {
+    "file": "visualizing-forecasts-with-excel.md",
+    "chunk": "## Visualizing Forecasts with Excel\n\n[![Visualizing forecasts with Excel](https://i.ytimg.com/vi_webp/judFpVgfsV4/sddefault.webp)](https://youtu.be/judFpVgfsV4)\n\n- [Excel File](https://docs.google.com..."
+  },
+  {
+    "file": "visualizing-network-data-with-kumu.md",
+    "chunk": "## Visualizing Network Data with Kumu\n\n[![Visualizing network data with Kumu](https://i.ytimg.com/vi_webp/OndB17bigkc/sddefault.webp)](https://youtu.be/OndB17bigkc)\n\n- [Kumu](https://kumu.io)\n- [IMDB..."
+  },
+  {
+    "file": "vscode.md",
+    "chunk": "## Editor: VS Code\n\nYour editor is the most important tool in your arsenal. That's where you'll spend most of your time. Make sure you're comfortable with it.\n\n[**Visual Studio Code**](https://code.vi..."
+  },
+  {
+    "file": "vscode.md",
+    "chunk": "Even if you use another editor, you'll be working with others who use it, and it's a good idea to have some exposure.\n\nWatch these introductory videos (35 min) from the [Visual Studio Docs](https://co..."
+  },
+  {
+    "file": "vscode.md",
+    "chunk": "(3 min)\n- [Productivity Tips](https://code.visualstudio.com/docs/introvideos/productivity): Become a VS Code power user with these productivity tips. (4 min)\n- [Personalize](https://code.visualstudio...."
+  },
+  {
+    "file": "vscode.md",
+    "chunk": "(2 min)\n- [Extensions](https://code.visualstudio.com/docs/introvideos/extend): Add features, themes, and more to VS Code with extensions! (4 min)\n- [Debugging](https://code.visualstudio.com/docs/intro..."
+  },
+  {
+    "file": "vscode.md",
+    "chunk": "(3 min)\n- [Customize](https://code.visualstudio.com/docs/introvideos/customize): Learn how to customize your settings and keyboard shortcuts in VS Code. (6 min)...."
+  },
+  {
+    "file": "web-automation-with-playwright.md",
+    "chunk": "## Web Scraping with Playwright in Python\n\nScrape JavaScript\u2011heavy sites effortlessly with Playwright.\n\n[![\ud83e\udd16 Playwright: Advanced Web Scraping in Python (14 min)](https://i.ytimg.com/vi_webp/biFzRHk4x..."
+  },
+  {
+    "file": "web-automation-with-playwright.md",
+    "chunk": "([playwright.dev](https://playwright.dev/python/docs/intro))\n- **Headless & headed modes**: Run without UI or in a real browser for debugging. ([playwright.dev](https://playwright.dev/python/docs/intr..."
+  },
+  {
+    "file": "web-automation-with-playwright.md",
+    "chunk": "([playwright.dev](https://playwright.dev/python/docs/intro))\n\n### Example: Scraping a JS\u2011Rendered Site\n\nWe\u2019ll scrape [Quotes to Scrape (JS)](https://quotes.toscrape.com/js/)\u2014a site that loads quotes v..."
+  },
+  {
+    "file": "web-automation-with-playwright.md",
+    "chunk": "Playwright runs the scripts and gives us the real content:\n\n```python\n# /// script\n# dependencies = [\"playwright\"]\n# ///\n\nfrom playwright.sync_api import sync_playwright\n\ndef scrape_quotes():\n    with..."
+  },
+  {
+    "file": "wikipedia-data-with-python.md",
+    "chunk": "..."
+  },
+  {
+    "file": "wikipedia-data-with-python.md",
+    "chunk": "## Wikipedia Data with Python\n\n[![Wikipedia data with Wikimedia Python library](https://i.ytimg.com/vi_webp/b6puvm-QEY0/sddefault.webp)](https://youtu.be/b6puvm-QEY0)\n\nYou'll learn how to scrape data..."
+  },
+  {
+    "file": "wikipedia-data-with-python.md",
+    "chunk": "The page may be different now from when the video was recorded. Handle accordingly....."
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "id": 171054,
+  "title": "Successfully Completed TDS Project 2 \u2013 Seeking Feedback & Demonstration Session",
+  "fancy_title": "Successfully Completed TDS Project 2 \u2013 Seeking Feedback &amp; Demonstration Session",
+  "slug": "successfully-completed-tds-project-2-seeking-feedback-demonstration-session",
+  "posts_count": 6,
+  "reply_count": 2,
+  "highest_post_number": 6,
+  "image_url": null,
+  "created_at": "2025-03-27T11:40:53.435Z",
+  "last_posted_at": "2025-03-31T07:29:24.499Z",
+  "bumped": true,
+  "bumped_at": "2025-03-31T07:29:24.499Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "diploma-level"
+  ],
+  "tags_descriptions": {},
+  "views": 198,
+  "like_count": 7,
+  "has_summary": false,
+  "last_poster_username": "Aryxn",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": false,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 25223,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 13078,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 7034,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 7193,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster",
+      "user_id": 3146,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

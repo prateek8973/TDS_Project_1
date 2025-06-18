@@ -1,0 +1,52 @@
+{
+  "id": 169393,
+  "title": "Thursday live session",
+  "fancy_title": "Thursday live session",
+  "slug": "thursday-live-session",
+  "posts_count": 2,
+  "reply_count": 0,
+  "highest_post_number": 3,
+  "image_url": null,
+  "created_at": "2025-03-08T06:07:13.935Z",
+  "last_posted_at": "2025-03-09T07:32:26.910Z",
+  "bumped": true,
+  "bumped_at": "2025-03-09T07:32:26.910Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "diploma-level"
+  ],
+  "tags_descriptions": {},
+  "views": 39,
+  "like_count": 0,
+  "has_summary": false,
+  "last_poster_username": "Yogesh1",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 35367,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster, Accepted Answer",
+      "user_id": 7795,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

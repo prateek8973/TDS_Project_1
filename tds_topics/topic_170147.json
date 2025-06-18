@@ -1,0 +1,59 @@
+{
+  "id": 170147,
+  "title": "Concerns Regarding Various Issues: Graded Assignments, Project Doubts, and ROE Score Updates",
+  "fancy_title": "Concerns Regarding Various Issues: Graded Assignments, Project Doubts, and ROE Score Updates",
+  "slug": "concerns-regarding-various-issues-graded-assignments-project-doubts-and-roe-score-updates",
+  "posts_count": 5,
+  "reply_count": 2,
+  "highest_post_number": 5,
+  "image_url": null,
+  "created_at": "2025-03-17T05:32:42.862Z",
+  "last_posted_at": "2025-03-17T12:43:30.265Z",
+  "bumped": true,
+  "bumped_at": "2025-03-17T12:43:30.265Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "clarification"
+  ],
+  "tags_descriptions": {},
+  "views": 174,
+  "like_count": 15,
+  "has_summary": false,
+  "last_poster_username": "lakshaygarg654",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": "latest",
+      "description": "Original Poster, Most Recent Poster",
+      "user_id": 7193,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster, Accepted Answer",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 21980,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

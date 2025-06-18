@@ -1,0 +1,68 @@
+{
+  "id": 167415,
+  "title": "IMPORTANT: Dockerfile submitted as dockerfile rest everything is working fine",
+  "fancy_title": "IMPORTANT: Dockerfile submitted as dockerfile rest everything is working fine",
+  "slug": "important-dockerfile-submitted-as-dockerfile-rest-everything-is-working-fine",
+  "posts_count": 5,
+  "reply_count": 1,
+  "highest_post_number": 6,
+  "image_url": null,
+  "created_at": "2025-02-16T15:33:59.823Z",
+  "last_posted_at": "2025-02-18T08:30:13.921Z",
+  "bumped": true,
+  "bumped_at": "2025-02-18T08:30:13.921Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "clarification",
+    "term1-2025",
+    "tds-project-1"
+  ],
+  "tags_descriptions": {},
+  "views": 78,
+  "like_count": 1,
+  "has_summary": false,
+  "last_poster_username": "satviksawhney",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 28703,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster, Accepted Answer",
+      "user_id": 13078,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 16552,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster",
+      "user_id": 22259,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

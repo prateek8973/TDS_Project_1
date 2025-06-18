@@ -1,0 +1,60 @@
+{
+  "id": 167878,
+  "title": "About TDS Course",
+  "fancy_title": "About TDS Course",
+  "slug": "about-tds-course",
+  "posts_count": 3,
+  "reply_count": 0,
+  "highest_post_number": 3,
+  "image_url": null,
+  "created_at": "2025-02-21T06:45:31.029Z",
+  "last_posted_at": "2025-02-21T10:18:09.293Z",
+  "bumped": true,
+  "bumped_at": "2025-02-21T10:18:09.293Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "operational",
+    "term1-2025"
+  ],
+  "tags_descriptions": {},
+  "views": 74,
+  "like_count": 0,
+  "has_summary": false,
+  "last_poster_username": "carlton",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 17695,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster, Accepted Answer",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 7795,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

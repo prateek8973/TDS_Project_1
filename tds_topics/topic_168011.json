@@ -1,0 +1,75 @@
+{
+  "id": 168011,
+  "title": "Q3, GA5 not accepting right answer",
+  "fancy_title": "Q3, GA5 not accepting right answer",
+  "slug": "q3-ga5-not-accepting-right-answer",
+  "posts_count": 7,
+  "reply_count": 2,
+  "highest_post_number": 9,
+  "image_url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/1/5/158680f0acc5ef430efd87e8a1cc59a78e6d5e07_2_1024x523.png",
+  "created_at": "2025-02-21T18:32:17.618Z",
+  "last_posted_at": "2025-02-25T11:13:32.454Z",
+  "bumped": true,
+  "bumped_at": "2025-02-25T11:13:32.454Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "term1-2025",
+    "graded-assignment",
+    "week-5"
+  ],
+  "tags_descriptions": {},
+  "views": 74,
+  "like_count": 1,
+  "has_summary": false,
+  "last_poster_username": "carlton",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 11716,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster, Accepted Answer",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 16541,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 3146,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 17736,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": 168384,
+  "title": "Clarification regarding Mock ROE Timings",
+  "fancy_title": "Clarification regarding Mock ROE Timings",
+  "slug": "clarification-regarding-mock-roe-timings",
+  "posts_count": 11,
+  "reply_count": 7,
+  "highest_post_number": 11,
+  "image_url": null,
+  "created_at": "2025-02-25T05:11:06.909Z",
+  "last_posted_at": "2025-02-26T13:58:52.609Z",
+  "bumped": true,
+  "bumped_at": "2025-02-26T13:58:52.609Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "clarification",
+    "term1-2025"
+  ],
+  "tags_descriptions": {},
+  "views": 162,
+  "like_count": 5,
+  "has_summary": false,
+  "last_poster_username": "Jivraj",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": false,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 36236,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 18297,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 17736,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster",
+      "user_id": 15651,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

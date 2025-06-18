@@ -1,0 +1,52 @@
+{
+  "id": 167679,
+  "title": "Inconsistent information in the Grading Document and the website",
+  "fancy_title": "Inconsistent information in the Grading Document and the website",
+  "slug": "inconsistent-information-in-the-grading-document-and-the-website",
+  "posts_count": 2,
+  "reply_count": 0,
+  "highest_post_number": 2,
+  "image_url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/6/d6f1b7044757c29a9ff64c6d9f38afcb1829c308_2_1024x805.png",
+  "created_at": "2025-02-19T06:13:13.395Z",
+  "last_posted_at": "2025-02-20T11:41:31.854Z",
+  "bumped": true,
+  "bumped_at": "2025-02-20T11:41:31.854Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "clarification"
+  ],
+  "tags_descriptions": {},
+  "views": 50,
+  "like_count": 3,
+  "has_summary": false,
+  "last_poster_username": "carlton",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 19230,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster, Accepted Answer",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

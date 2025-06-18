@@ -1,0 +1,53 @@
+{
+  "id": 168515,
+  "title": "Opening previous ga just for practise",
+  "fancy_title": "Opening previous ga just for practise",
+  "slug": "opening-previous-ga-just-for-practise",
+  "posts_count": 3,
+  "reply_count": 1,
+  "highest_post_number": 4,
+  "image_url": null,
+  "created_at": "2025-02-26T06:09:42.079Z",
+  "last_posted_at": "2025-02-26T17:11:47.647Z",
+  "bumped": true,
+  "bumped_at": "2025-02-26T17:11:47.647Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "miscellaneous",
+    "term1-2025"
+  ],
+  "tags_descriptions": {},
+  "views": 64,
+  "like_count": 1,
+  "has_summary": false,
+  "last_poster_username": "22f3001011",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": "latest",
+      "description": "Original Poster, Most Recent Poster",
+      "user_id": 17948,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster, Accepted Answer",
+      "user_id": 15651,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

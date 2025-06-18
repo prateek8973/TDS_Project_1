@@ -1,0 +1,59 @@
+{
+  "id": 165687,
+  "title": "Meet with Anand (TDS Faculty), Wed 5 Feb, 10:30 am - 2:30 pm",
+  "fancy_title": "Meet with Anand (TDS Faculty), Wed 5 Feb, 10:30 am - 2:30 pm",
+  "slug": "meet-with-anand-tds-faculty-wed-5-feb-10-30-am-2-30-pm",
+  "posts_count": 5,
+  "reply_count": 1,
+  "highest_post_number": 5,
+  "image_url": null,
+  "created_at": "2025-01-29T04:24:06.432Z",
+  "last_posted_at": "2025-02-05T13:21:21.844Z",
+  "bumped": true,
+  "bumped_at": "2025-02-05T13:24:38.094Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "announcement"
+  ],
+  "tags_descriptions": {},
+  "views": 137,
+  "like_count": 9,
+  "has_summary": false,
+  "last_poster_username": "21f3001993",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": false,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 9419,
+      "primary_group_id": 54,
+      "flair_group_id": 54
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 16094,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster",
+      "user_id": 8102,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

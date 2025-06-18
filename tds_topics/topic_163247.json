@@ -1,0 +1,81 @@
+{
+  "id": 163247,
+  "title": "GA3 - Large Language Models - Discussion Thread [TDS Jan 2025]",
+  "fancy_title": "GA3 - Large Language Models - Discussion Thread [TDS Jan 2025]",
+  "slug": "ga3-large-language-models-discussion-thread-tds-jan-2025",
+  "posts_count": 149,
+  "reply_count": 77,
+  "highest_post_number": 167,
+  "image_url": null,
+  "created_at": "2025-01-14T13:00:03.125Z",
+  "last_posted_at": "2025-06-02T08:00:47.178Z",
+  "bumped": true,
+  "bumped_at": "2025-06-02T08:00:47.178Z",
+  "archetype": "regular",
+  "unseen": false,
+  "last_read_post_number": 167,
+  "unread": 0,
+  "new_posts": 0,
+  "unread_posts": 0,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "notification_level": 2,
+  "bookmarked": false,
+  "liked": false,
+  "tags": [
+    "announcement",
+    "term1-2025",
+    "graded-assignment",
+    "week-3"
+  ],
+  "tags_descriptions": {},
+  "views": 1188,
+  "like_count": 42,
+  "has_summary": true,
+  "last_poster_username": "HritikRoshan_HRM",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": false,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 9419,
+      "primary_group_id": 54,
+      "flair_group_id": 54
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 11755,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 32407,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster",
+      "user_id": 15651,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster",
+      "user_id": 15658,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

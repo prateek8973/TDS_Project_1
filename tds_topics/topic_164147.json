@@ -1,0 +1,63 @@
+{
+  "id": 164147,
+  "title": "Issues In TDS And Replacement with another course",
+  "fancy_title": "Issues In TDS And Replacement with another course",
+  "slug": "issues-in-tds-and-replacement-with-another-course",
+  "posts_count": 3,
+  "reply_count": 0,
+  "highest_post_number": 3,
+  "image_url": null,
+  "created_at": "2025-01-18T07:57:16.564Z",
+  "last_posted_at": "2025-01-19T15:17:29.605Z",
+  "bumped": true,
+  "bumped_at": "2025-01-19T15:17:29.605Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "clarification",
+    "operational",
+    "diploma-level",
+    "guidelines",
+    "course-portal"
+  ],
+  "tags_descriptions": {},
+  "views": 115,
+  "like_count": 2,
+  "has_summary": false,
+  "last_poster_username": "TRIGON",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": true,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": null,
+      "description": "Original Poster",
+      "user_id": 35818,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": null,
+      "description": "Frequent Poster, Accepted Answer",
+      "user_id": 17736,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    },
+    {
+      "extras": "latest",
+      "description": "Most Recent Poster",
+      "user_id": 43072,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}

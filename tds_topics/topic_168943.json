@@ -1,0 +1,47 @@
+{
+  "id": 168943,
+  "title": "Solving ROE Realtime",
+  "fancy_title": "Solving ROE Realtime",
+  "slug": "solving-roe-realtime",
+  "posts_count": 5,
+  "reply_count": 0,
+  "highest_post_number": 5,
+  "image_url": null,
+  "created_at": "2025-03-02T07:30:53.713Z",
+  "last_posted_at": "2025-03-02T08:14:15.471Z",
+  "bumped": true,
+  "bumped_at": "2025-03-02T08:14:15.471Z",
+  "archetype": "regular",
+  "unseen": false,
+  "pinned": false,
+  "unpinned": null,
+  "visible": true,
+  "closed": false,
+  "archived": false,
+  "bookmarked": null,
+  "liked": null,
+  "tags": [
+    "extra-resources",
+    "term1-2025",
+    "tds-roe"
+  ],
+  "tags_descriptions": {},
+  "views": 81,
+  "like_count": 1,
+  "has_summary": false,
+  "last_poster_username": "23f1002382",
+  "category_id": 34,
+  "pinned_globally": false,
+  "featured_link": null,
+  "has_accepted_answer": false,
+  "can_vote": false,
+  "posters": [
+    {
+      "extras": "latest single",
+      "description": "Original Poster, Most Recent Poster",
+      "user_id": 18297,
+      "primary_group_id": 294,
+      "flair_group_id": 294
+    }
+  ]
+}
